@@ -1,0 +1,19 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 69
+    length: 20
+    placeholder_text: '# TODO: modify x so that the print statement does not throw
+      an exception'
+  - offset: 139
+    length: 19
+    placeholder_text: '# TODO: modify w so that the print statement does not throw
+      an exception'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
