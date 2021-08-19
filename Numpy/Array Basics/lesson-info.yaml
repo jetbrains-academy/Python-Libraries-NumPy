@@ -6,3 +6,4 @@ content:
 - Reshape
 - Random Sampling
 - Random Shuffle
+- Broadcasting
