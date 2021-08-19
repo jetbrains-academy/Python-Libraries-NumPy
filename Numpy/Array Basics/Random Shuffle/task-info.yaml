@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 16
+    placeholder_text: '# TODO: shuffle rows of `arr` in place'
+  - offset: 118
+    length: 28
+    placeholder_text: '# TODO: now permute the elements within rows of `arr`'
+  - offset: 162
+    length: 45
+    placeholder_text: '# TODO: fully randomize the array'
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
