@@ -63,9 +63,11 @@ Output:
 
 These examples show the use of indexing when referencing data in an array. 
 They work just as well when assigning to an array.
+Read more about this topic [here](https://numpy.org/doc/stable/user/basics.indexing.html#basics-indexing).
 
 ### Task
 1. Variable `a`: use indexing on the array `x` to extract number `19` from it. Please
    **do not** just assign `a` the value `19` :)
 2. Variable `b`: use slicing to extract every second element in every second row. The resulting array 
 should have shape `(5, 2)`.
+   
