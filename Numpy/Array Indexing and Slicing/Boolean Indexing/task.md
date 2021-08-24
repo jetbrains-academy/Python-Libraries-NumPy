@@ -1,7 +1,9 @@
 ## Boolean Indexing
 
 Boolean arrays used as indices are treated differently from index 
-arrays. Boolean arrays must be of the same shape as the initial dimensions of the indexed array. 
+arrays. Boolean arrays must be of the same shape as the initial dimensions of the array being indexed.
+Such boolean arrays are often referred to as **masks** and the process of indexing other arrays using them
+is called masking, or masked filtering.
 
 ```python
 y = np.arange(20).reshape(5, 4)
