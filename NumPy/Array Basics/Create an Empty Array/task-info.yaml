@@ -3,8 +3,11 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 50
-    length: 65
+  - offset: 54
+    length: 31
+    placeholder_text: '# TODO'
+  - offset: 94
+    length: 21
     placeholder_text: '# TODO'
 - name: tests/test_task.py
   visible: false
