@@ -5,13 +5,17 @@ At the core of the NumPy package, is the [`ndarray`](https://numpy.org/doc/stabl
 It is a table of elements (usually numbers), all of the same type, indexed by a tuple of non-negative integers. 
 In NumPy dimensions are called axes.
 
-In the example below, the array has 2 axes. The first axis has 
+In the example below, the array `arr` has 2 axes. The first axis has 
 a length of 2, the second axis has a length of 3.
 
 ```text
 [[1., 0., 0.],
  [0., 1., 2.]]
 ```
+
+Axes are numbered starting from 0. The 0'th axis is a row, the 1st axis is a column.
+To access elements, you have to specify coordinates along each axis following their order. 
+For example, to access the number `2.` from the array above you should use `arr[1][2]`.
 
 `ndarray` is also known by the alias `array`. 
 Note that `numpy.array` is different from the Standard Python Library class `array.array`, 
@@ -33,5 +37,11 @@ important attributes of an `ndarray` object are:
 
 Run the code in `main.py` to see some examples in the output.
 To run this script, right-click anywhere in the **Editor** view so you can see the context 
-menu and select **Run 'hello_world'**. Alternatively, you can use the &shortcut:RunClass; shortcut.
+menu and select **Run 'script_name'**. Alternatively, you can use the &shortcut:RunClass; shortcut.
 or the ![](execute.svg) gutter icon. 
+
+<style>
+img {
+  display: inline !important;
+}
+</style>
