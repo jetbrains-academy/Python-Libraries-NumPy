@@ -24,7 +24,7 @@ Output (all print the same thing):
  [ 4  9 14]]
 ```
 
-> <i>Method [`numpy.ndarray.reshape`](course://Numpy/Array Basics/Reshape) we encountered earlier
+> <i>Method [`numpy.ndarray.reshape`](course://Numpy_/Array Basics/Reshape) we encountered earlier
 gives a new shape to an array without changing its data and can also be used for transposing.</i>
 
 ### Task 

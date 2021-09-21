@@ -7,7 +7,7 @@ Each element of an array can be compared against a scalar using any of the opera
 - smaller equal (`<=`),
 - equal (`==`).
 
-This is accomplished due to the [broadcasting](course://Numpy/Array Basics/Broadcasting) feature. 
+This is accomplished due to the [broadcasting](course://NumPy/Array Basics/Broadcasting) feature. 
 For example, the comparison `arr > x` results in an array of boolean values resulting from the element-wise comparisons:
 ```python
 arr = np.arange(10)
@@ -17,7 +17,7 @@ Output:
 ```text
 [False False False False  True  True  True  True  True  True]
 ```
-You already saw such arrays in the task [Boolean Indexing](course://Numpy/Array Indexing and Slicing/Boolean Indexing).
+You already saw such arrays in the task [Boolean Indexing](course://NumPy/Array Indexing and Slicing/Boolean Indexing).
 
 ### Task
 Your task is to create the array `filtered_arr` such that it only contains the numbers from the original
