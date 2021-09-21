@@ -1,10 +1,6 @@
-import numpy as np
+import numpy as np  # Importing the NumPy module
 
-a = np.arange(6)
-b = np.array([1, 2, 3, 4, 5, 6])
-c = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+a = np.arange(12, 31, 3)  # Creating an array of integers from 12 to 30 with step 3
 
 if __name__ == "__main__":
     print(a)
-    print(b)
-    print(c)
