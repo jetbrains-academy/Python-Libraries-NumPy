@@ -7,7 +7,7 @@ pseudorandom number generation. It is called pseudorandom because "random" means
 can not be predicted logically, and if a program generates a "random" number 
 it can be predicted, thus it is not truly random.
 
-The function `numpy.random.random` returns random floats in the half-open interval `[0.0, 1.0)`:
+The function `numpy.random.random` returns random floats in the [half-open interval](https://en.wikipedia.org/wiki/Interval_(mathematics)#Terminology) `[0.0, 1.0)`:
 
 ```python
 a = np.random.random(5)
