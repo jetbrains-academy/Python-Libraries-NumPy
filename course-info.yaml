@@ -9,4 +9,4 @@ summary: |-
 programming_language: Python
 environment: unittest
 content:
-- Numpy
+- NumPy
