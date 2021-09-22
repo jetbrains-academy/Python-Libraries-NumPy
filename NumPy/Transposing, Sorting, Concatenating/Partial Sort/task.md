@@ -18,11 +18,11 @@ a = np.array([6, 0, 5, 2, 17, 2, 10, 17, 0, 13])
 b = np.partition(a, 4)
 print(a, '\n', b)
 ```
-Output:
+Output (the ^ indicates the element by which the array was partitioned):
 ```text
 [ 6  0  5  2 17  2 10 17  0 13] 
- [ 0  0  2  2  5  6 10 13 17 17]
-               ^
+[ 0  0  2  2  5  6 10 13 17 17]
+              ^
 ```
 ### Indirect partial sort
 
