@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
         a_test = np.array([['clear', 'conscience', 'is'],
                            ['usually', 'the', 'sign'],
                            ['of', 'bad', 'memory']])
-        np.testing.assert_array_equal(a, a_test, err_msg='Array `a` is off!')
-        np.testing.assert_array_equal(b, b_test, err_msg='Array `b` is off!')
-        np.testing.assert_array_equal(c, c_test, err_msg='Array `c` is off!')
+        np.testing.assert_array_equal(a, a_test, err_msg='Array `a` is off.')
+        np.testing.assert_array_equal(b, b_test, err_msg='Array `b` is off.')
+        np.testing.assert_array_equal(c, c_test, err_msg='Array `c` is off.')
 
