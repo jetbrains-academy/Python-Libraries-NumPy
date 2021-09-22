@@ -8,7 +8,7 @@ The function [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/
 is used for reshaping, and it accepts three arguments:
 
 - The array to be reshaped.
-- The new shape as an `int` or tuple of `int`s.
+- The new shape as an `int` or tuple of `int` values.
 - An optional argument `order`, which defines the order in which the elements are read and placed into the reshaped array.
 
 ### Examples
@@ -32,7 +32,8 @@ Output:
 [1 2 3 4 5 6]
 ```
 
-The latter can also be achieved by using `numpy.ndarray.flatten`:
+The latter can also be achieved by using [`numpy.ndarray.flatten`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html),
+which returns a copy of the array collapsed into one dimension:
 ```python
 a = np.array([[1, 2, 3], [4, 5, 6]])
 print(a.flatten())
