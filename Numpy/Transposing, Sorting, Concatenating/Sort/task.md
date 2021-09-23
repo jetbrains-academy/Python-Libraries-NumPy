@@ -84,6 +84,12 @@ Output:
  [1 2]]
 ```
 
+The function [`numpy.take_along_axis`](https://numpy.org/doc/stable/reference/generated/numpy.take_along_axis.html)
+takes values from the input array using an index array. This is needed whenever you
+work with NumPy functions such as `argsort`, `argpartition` (next task), `argmax` (next lesson), which 
+return an array of indices that can be further used to sort the initial array or perform some other operation
+with it.
+
 ### Task
 You are given a 2-D array of 100 random integers.
 1. Sort columns (second axis!) of this array and assign the result to the variable `b`.
