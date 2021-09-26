@@ -1,6 +1,7 @@
+custom_name: NumPy
 content:
 - Introduction
 - Array Basics
 - Array Indexing and Slicing
-- Transposing, Sorting, Concatenating
-- Compare, Search
+- Transposing Sorting Concatenating
+- Compare Search

@@ -1,3 +1,4 @@
+custom_name: Compare with a Scalar
 type: edu
 files:
 - name: task.py
