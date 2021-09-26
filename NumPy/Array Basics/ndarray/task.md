@@ -33,7 +33,7 @@ important attributes of an `ndarray` object are:
 
 - [`ndarray.dtype`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.dtype.html) –  an object describing the type of the elements in the array. 
   One can create or specify dtype’s using standard Python types. Additionally, NumPy 
-  provides types of its own. numpy.int32, numpy.int16, and numpy.float64 are some examples.
+  provides types of its own. `numpy.int32`, `numpy.int16`, and `numpy.float64` are some examples.
 
 Run the code in `main.py` to see some examples in the output.
 To run this script, right-click anywhere in the **Editor** view so you can see the context 
