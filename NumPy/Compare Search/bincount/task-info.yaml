@@ -1,0 +1,20 @@
+type: edu
+files:
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 206
+    length: 30
+    placeholder_text: '# TODO'
+- name: data.csv
+  visible: true
+- name: test_data1.csv
+  visible: false
+- name: test_data2.csv
+  visible: false
