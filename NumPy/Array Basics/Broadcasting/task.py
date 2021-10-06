@@ -11,5 +11,9 @@ w = w.reshape(3, 4)
 z = np.ones((3, 4))
 
 if __name__ == '__main__':
+    print(x)
+    print(y)
     print(x + y)
+    print(z)
+    print(w)
     print(z * w)
