@@ -1,5 +1,4 @@
 import numpy as np
-import codecs
 
 
 def read_data(file):

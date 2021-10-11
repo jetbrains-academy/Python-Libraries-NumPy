@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 128
+  - offset: 114
     length: 20
     placeholder_text: text
 - name: tests/test_task.py
