@@ -17,5 +17,3 @@ if __name__ == '__main__':
     line_lengths = get_line_lengths(uppercase_text)
     print(uppercase_text)
     print(line_lengths)
-    print(uppercase_text.shape)
-    print(line_lengths.shape)
