@@ -1,4 +1,4 @@
-## String Operations in NumPy
+## Basic String Operations in NumPy
 
 There is a number of functions in NumPy that perform string operations on arrays of string and unicode values by calling 
 familiar Python string methods. Here are some examples:
