@@ -64,3 +64,9 @@ Output:
 
 Implement the function `remove_extra_stuff` so that for the given `text` the code
 would print `"This is almost a normal sentence now"`
+
+<div class="hint">You will need to replace upper-case vowels with lower-case ones and remove three different kinds
+of characters.</div>
+
+<div class="hint">Check out the page describing string constants linked in the
+task description to find the ones you can use.</div>
