@@ -1,6 +1,6 @@
 ## Choosing NumPy: The Benefits
 
-NumPy is the most widely used package for scientific computing in Python. It 
+[NumPy](https://numpy.org/) is the most widely used package for scientific computing in Python. It 
 provides a multidimensional array object and different derived objects (such as masked arrays and 
 matrices), as well as a wide variety of ways to manipulate arrays. These include mathematical, 
 logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear 
@@ -9,9 +9,9 @@ advanced mathematical and other types of operations on large datasets.
 
 Here are the top benefits of using NumPy:
 
+- NumPy helps you reduce the loops and make your code clearer and easier to read.
 - NumPy uses algorithms written in C that complete in nanoseconds rather than seconds: explicit 
   looping, indexing, etc., is taking place "behind the scenes" in optimized, pre-compiled C code.
-- NumPy helps you reduce the loops and make your code clearer and easier to read.
 - Operations on large datasets are executed more efficiently and with less code than is 
   possible using Python’s built-in sequences. Fewer lines of code generally mean fewer bugs.
 - A wast community is constantly working to keep NumPy fast, user-friendly, and bug-free.
