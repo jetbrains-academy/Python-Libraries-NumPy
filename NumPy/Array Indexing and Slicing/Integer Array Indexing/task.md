@@ -69,6 +69,7 @@ The broadcasting mechanism permits index arrays to be combined with scalars for 
 The scalar value is used for all the corresponding values of the index arrays:
 
 ```python
+x = np.arange(15).reshape(5, 3)
 print(x[np.array([0, 2, 3, 4]), 1])
 ```
 Output:

@@ -4,7 +4,7 @@
 However, now the `chararray` class exists only for backwards compatibility, and
 it is not recommended for new development. Starting from numpy 1.4, if 
 one needs arrays of strings, it is recommended to use arrays of `dtype` [`object_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.object_), 
-[`string_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.string_) or [`unicode_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.unicode_), and use the free functions in the [`numpy.char`](https://numpy.org/doc/stable/reference/routines.char.html) module for 
+[`string_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.string_) or [`unicode_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.unicode_), and use functions in the [`numpy.char`](https://numpy.org/doc/stable/reference/routines.char.html) module for 
 fast vectorized string operations.
 
 ### Bytes

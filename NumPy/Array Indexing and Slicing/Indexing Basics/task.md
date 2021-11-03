@@ -60,6 +60,7 @@ Output:
 ```
 2-D array:
 ```python
+x = np.arange(35)
 y = x.reshape(5, 7)
 print(y[1:5:2])
 print(y[1:5:2, ::3])  # First slicing in the first dimension, then in the second.

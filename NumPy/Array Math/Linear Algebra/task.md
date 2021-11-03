@@ -48,6 +48,8 @@ function (shorthand: `@`). `matmul` differs from `dot` in two important ways:
 
 For 2-D arrays the behavior is the same:
 ```python
+a = np.array([[1, 1], [2, 2]])
+b = np.array([[0, 10], [0, 10]])
 print(a @ b)
 ```
 Output:
