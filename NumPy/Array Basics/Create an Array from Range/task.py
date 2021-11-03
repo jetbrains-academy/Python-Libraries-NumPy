@@ -1,20 +1,12 @@
 import numpy as np
-from numpy import pi
-# matplotlib is library for plotting data. We will be discussing it later in detail.
-import matplotlib.pyplot as plt
 
 
-def sine_array(start, stop, num):
-    x = np.linspace(start, stop, num)
-    f = np.sin(x)
-    return x, f
+def array_from_range(start, stop, step=1):
+    return np.arange(start, stop, step)
 
 
 if __name__ == '__main__':
-    a, b = sine_array(0, 3 * pi, 100)
-    print(a)
-    print(b)
-
-    plt.plot(a, b)
-    plt.suptitle('sin(x)')
-    plt.show()
+    up = array_from_range(100, 110)
+    down = array_from_range(100, 0, -10)
+    print(up)  # Should print '[100 101 102 103 104 105 106 107 108 109]'
+    print(down)  # Should print '[100  90  80  70  60  50  40  30  20  10]'
