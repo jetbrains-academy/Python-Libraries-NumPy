@@ -56,7 +56,7 @@ for finding minima.
 3. Use these indices to extract the maximum elements from each row, assign the resulting array to variable `result`.
 Please use this exact name.
 
-You can add any `print` statements you like to `if __name__ == '__main__':` to help you figure out this task.
+You can add any `print` statements you like to the `main` block to help you figure out this task.
 
 <div class="hint">
 For (3) you will need the function <code>numpy.take_along_axis</code>, which we talked about in the task "Sort".

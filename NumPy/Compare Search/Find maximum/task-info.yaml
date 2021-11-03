@@ -1,12 +1,18 @@
-custom_name: Find Maxima
 type: edu
+custom_name: Find Maxima
 files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 20
-    length: 186
-    placeholder_text: '# TODO'
+  - offset: 27
+    length: 56
+    placeholder_text: '# Import data'
+  - offset: 166
+    length: 40
+    placeholder_text: '# Extract the maximum elements from each row'
+  - offset: 93
+    length: 63
+    placeholder_text: '# Find indices of maximum values in each row'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py
