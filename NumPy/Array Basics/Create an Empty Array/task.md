@@ -8,9 +8,11 @@ NumPy offers several functions to create arrays with initial placeholder content
 - the function [`empty`](https://numpy.org/doc/stable/reference/generated/numpy.empty.html#numpy.empty) creates an array where the initial content is random and 
 depends on the state of the memory.
 
-  
+<div class="hint">
+
 By default, the `dtype` of an array created in such a way is [`float64`](https://numpy.org/doc/stable/reference/arrays.scalars.html?highlight=float64#numpy.float64), 
 but it can be specified with the keyword argument `dtype`.
+</div>
 
 ```python
 a = np.zeros((3, 4))
