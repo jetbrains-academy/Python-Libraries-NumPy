@@ -24,7 +24,7 @@ A common use for it is to find the indices of an array, where a condition is
 the `a` where the condition is true. Using the result to index `a` (`a[np.nonzero(a < 5)]`) is equivalent to 
 using the mask directly (`a[a < 5]`), and the latter is the preferred spelling.
 
-`np.nonzero(a < 5)` is equivalent to `np.where(a < 5)`:
+`np.nonzero(a < 5)` is equivalent to `np.where(a < 5)` (which also returns the indices of elements in the input array where the condition is satisfied):
 
 ```python
 print(np.where(a < 5))

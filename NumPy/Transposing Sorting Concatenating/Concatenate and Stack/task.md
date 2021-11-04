@@ -43,12 +43,11 @@ Output:
 ```text
 [[[1 2]
   [3 4]]
-
  [[1 2]
   [3 4]]]
+  
 [[[1 1]
   [2 2]]
-
  [[3 3]
   [4 4]]]
 ```
@@ -56,6 +55,7 @@ Output:
 arrays in sequence horizontally (column wise).
 This is equivalent to concatenation along the second axis, except for 1-D arrays where it concatenates along the first axis:
 ```python
+a, b = np.array((1, 2, 3)), np.array((4, 5, 6))
 print(np.hstack((a, b)))
 c, d = np.array([[1], [2], [3]]), np.array([[4], [5], [6]])
 print(np.hstack((c, d)))

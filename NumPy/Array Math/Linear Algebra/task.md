@@ -44,10 +44,12 @@ There's also the [`numpy.matmul(a, b)`](https://numpy.org/doc/stable/reference/g
 function (shorthand: `@`). `matmul` differs from `dot` in two important ways:
 
 - Multiplication by scalars is not allowed.
-- Stacks of matrices are broadcast together as if the matrices were elements (methods behave differently when passed 3-D or higher dimensional arrays).
+- Stacks of matrices are broadcast together as if the matrices were elements (methods behave differently when passed 3-D or higher dimensional arrays, see the methods' docs for details).
 
 For 2-D arrays the behavior is the same:
 ```python
+a = np.array([[1, 1], [2, 2]])
+b = np.array([[0, 10], [0, 10]])
 print(a @ b)
 ```
 Output:

@@ -89,4 +89,4 @@ learned earlier.
 
 <div class="hint">To fully randomize it, you could first, <code>flatten</code> the array, apply the <code>permutation</code>
 method to it, and <code>reshape</code> back to the original shape. All these things can be done in one
-line of code.</div>
+line of code (although this does not mean that they always should).</div>
