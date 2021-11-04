@@ -1,7 +1,7 @@
 ## Transpose a 1D array
 
-Theoretically, it’s possible to transpose a 1D array, but in terms of programming 
-languages, it is not possible to transpose a 1D array. The transpose of a 1D array is still a 1D array.
+In terms of programming 
+languages, it is not possible to transpose a 1D array: the transpose of a 1D array is still a 1D array.
 
 A 1D array is a row of a matrix. If we have to transpose it, we must convert 
 this 1D matrix to a 2D matrix and then transpose it. Check out the example below for 
