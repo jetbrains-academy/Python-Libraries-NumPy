@@ -2,3 +2,4 @@ type: framework
 content:
 - Introduction
 - Load Image
+- Access Red Pixel Data
