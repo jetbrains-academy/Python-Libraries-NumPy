@@ -7,7 +7,7 @@ if you don’t know how to apply common functions to n-dimensional arrays (witho
 or if you want to understand axis and shape properties for n-dimensional arrays, this tutorial might be of help.
 
 #### Learning Objectives
-After this tutorial, you should be able to:
+After completing this tutorial, you should be able to:
 
 - Understand the difference between one-, two- and n-dimensional arrays in NumPy;
 
