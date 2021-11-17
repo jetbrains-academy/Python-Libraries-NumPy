@@ -15,8 +15,11 @@ print(-np.sum(b * np.log2(b)))
 
 
 class TestCase(unittest.TestCase):
-    def test_entropy(self):
-        self.assertEqual(calculate_entropy(task_data), -np.sum(task_data * np.log2(task_data)), msg='Wrong answer for task '
-                                                                                            'dataset.')
-        self.assertEqual(calculate_entropy(b), -np.sum(b * np.log2(b)), msg='Wrong answer for test dataset.')
+    def test_entropy_task_data(self):
+        self.assertEqual(-np.sum(task_data * np.log2(task_data)), calculate_entropy(task_data),
+                         msg='Wrong answer for task dataset.')
+
+    def test_entropy_test(self):
+        self.assertEqual(-np.sum(b * np.log2(b)), calculate_entropy(b),
+                         msg='Wrong answer for test dataset.')
 

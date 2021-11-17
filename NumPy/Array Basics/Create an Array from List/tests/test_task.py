@@ -4,6 +4,8 @@ from task import *
 
 
 class TestCase(unittest.TestCase):
-    def test_add(self):
-        self.assertEqual(create_array(1, 2).shape, (1, 2), msg="Something is wrong.")
-        self.assertEqual(create_array(3, 5).shape, (3, 5), msg="Something is wrong.")
+    def test_one(self):
+        self.assertEqual((1, 2), create_array(1, 2).shape, msg="Something is wrong.")
+
+    def test_two(self):
+        self.assertEqual((3, 5), create_array(3, 5).shape, msg="Something is wrong.")

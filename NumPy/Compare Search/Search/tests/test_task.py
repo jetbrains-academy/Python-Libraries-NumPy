@@ -11,7 +11,9 @@ class TestCase(unittest.TestCase):
         np.testing.assert_array_equal(result, np.where(temperatures > 15, high_test, low_test),
                                       err_msg='Your `result` array '
                                               'does not contain the values we expected.')
-        self.assertEqual(result.shape, days.shape, msg='Shape of the array `result` should match the shape of `days`.')
+
+    def test_shape(self):
+        self.assertEqual(days.shape, result.shape, msg='Shape of the array `result` should match the shape of `days`.')
 
     def test_names(self):
         np.testing.assert_array_equal(warm_days, days[temperatures > 15],

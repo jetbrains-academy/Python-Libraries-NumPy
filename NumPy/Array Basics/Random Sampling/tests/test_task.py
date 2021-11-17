@@ -5,8 +5,12 @@ from task import *
 
 
 class TestCase(unittest.TestCase):
-    def test_normal(self):
-        self.assertEqual(s.shape, (1000,), msg="Draw 1000 samples.")
-        self.assertEqual(round(abs(mu - np.mean(s)), 1), 0.0,  msg="Mean should be close to 0.0.")
-        self.assertEqual(round(abs(sigma - np.std(s, ddof=1)), 1), 0.0,  msg="Variance should be close to 0.0.")
+    def test_draw(self):
+        self.assertEqual((1000,), s.shape, msg="Draw 1000 samples.")
+
+    def test_mean(self):
+        self.assertEqual(0.0,  round(abs(mu - np.mean(s)), 1), msg="Mean should be close to 0.0.")
+
+    def test_variance(self):
+        self.assertEqual(0.0,  round(abs(sigma - np.std(s, ddof=1)), 1), msg="Variance should be close to 0.0.")
 

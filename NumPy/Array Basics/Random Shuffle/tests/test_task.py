@@ -6,9 +6,9 @@ from task import arr, permuted_2d, fully_random
 
 class TestCase(unittest.TestCase):
     def test_shape(self):
-        self.assertEqual(arr.shape, (5, 20), msg="Wrong shape of the array 'arr'.")
-        self.assertEqual(permuted_2d.shape, (5, 20), msg="Wrong shape of the array 'permuted_2d'.")
-        self.assertEqual(fully_random.shape, (5, 20), msg="Wrong shape of the array 'fully_random'.")
+        self.assertEqual((5, 20), arr.shape, msg="Wrong shape of the array 'arr'.")
+        self.assertEqual((5, 20), permuted_2d.shape, msg="Wrong shape of the array 'permuted_2d'.")
+        self.assertEqual((5, 20), fully_random.shape, msg="Wrong shape of the array 'fully_random'.")
 
     def test_arr(self):
         for i in arr:

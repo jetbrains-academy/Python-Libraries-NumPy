@@ -15,4 +15,4 @@ class TestCase(unittest.TestCase):
         np.testing.assert_array_equal(result, test_result, err_msg='Your result does not match the expected.')
 
     def test_array_shape(self):
-        self.assertEqual(result.shape, test_result.shape, msg='Shape of the array result should be (100, 1).')
+        self.assertEqual(test_result.shape, result.shape, msg='Shape of the array result should be (100, 1).')

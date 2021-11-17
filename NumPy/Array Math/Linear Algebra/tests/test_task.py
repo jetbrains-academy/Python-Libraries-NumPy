@@ -7,10 +7,12 @@ test_values, test_labels = np.array(csv[:, :2], dtype=float), np.array(csv[:, 2]
 
 
 class TestCase(unittest.TestCase):
-    def test_input(self):
-        np.testing.assert_array_equal(test_values, values, err_msg='Input values were not extracted properly from the '
+    def test_values(self):
+        np.testing.assert_array_equal(values, test_values, err_msg='Input values were not extracted properly from the '
                                                                    'csv.')
-        np.testing.assert_array_equal(test_labels, labels, err_msg='Labels were not extracted properly from the '
+
+    def test_labels(self):
+        np.testing.assert_array_equal(labels, test_labels, err_msg='Labels were not extracted properly from the '
                                                                    'csv.')
 
     def test_predict(self):
