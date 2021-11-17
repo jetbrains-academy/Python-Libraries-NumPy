@@ -2,7 +2,9 @@ import numpy as np
 rng = np.random.default_rng()
 
 k = 3
-arr = rng.normal(1, 1, 10)
+mu = 1
+sigma = 1
+arr = rng.normal(mu, sigma, 10)
 target = 0
 distances = abs(arr - target)
 

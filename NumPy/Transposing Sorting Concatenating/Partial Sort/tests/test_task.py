@@ -8,8 +8,9 @@ class TestCase(unittest.TestCase):
         self.assertEqual(distances.shape, indices.shape, msg="`indices` has to have the same shape as `distances`.")
 
     def test_partition(self):
-        self.assertTrue(all([partitioned_by_distance[i] < partitioned_by_distance[k] for i in range(k)]) and
-                        all([partitioned_by_distance[i] >= partitioned_by_distance[k] for i in range(k, arr.shape[0])]),
+        partitioned_distances = abs(partitioned_by_distance - target)
+        self.assertTrue(all([partitioned_distances[i] < partitioned_distances[k] for i in range(k)]) and
+                        all([partitioned_distances[i] >= partitioned_distances[k] for i in range(k, arr.shape[0])]),
                         msg='`partitioned_by_distance` does not seem to be partitioned.')
 
     def test_k_nearest(self):

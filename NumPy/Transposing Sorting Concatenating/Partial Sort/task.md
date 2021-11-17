@@ -53,7 +53,7 @@ Output:
  [0 1 1 2 3]]
 ```
 ### Task
-You have an array `arr` with 20 numbers and a target value `target`. You need to find `k = 3` data points
+You have an array `arr` with 20 random numbers and a target value `target`. You need to find `k = 3` data points
 in the array `arr` that are the closest to `target` by value. The array `differences` contains the distances
 between `target` and each element of `arr`.
 1. Get indices of `distances` partitioned by the k-th element.
