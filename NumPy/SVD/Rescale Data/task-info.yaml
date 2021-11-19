@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 130
+    length: 9
+    placeholder_text: '''Rescale the data'''
+  - offset: 160
+    length: 20
+    placeholder_text: '''Get maximum and minimum of the initial data'''
+  - offset: 210
+    length: 38
+    placeholder_text: '''Get maximum and minimum of the rescaled array'''
+- name: __init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
