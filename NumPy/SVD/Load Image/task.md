@@ -33,3 +33,5 @@ In fact, since this is a color image, and we used the `imread` function to read 
 data is organized in three 2D arrays, representing color channels (in this case, red, green 
 and blue - RGB). You can see this by looking at the shape: it indicates that we have an 
 array of 3 matrices, 408x612 each.
+
+

@@ -4,3 +4,4 @@ content:
 - Load Image
 - Access Red Pixel Data
 - Rescale Data
+- Split Color Channels
