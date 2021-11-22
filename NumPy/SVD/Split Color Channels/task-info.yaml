@@ -2,6 +2,16 @@ type: edu
 files:
 - name: task.py
   visible: true
+  placeholders:
+  - offset: 155
+    length: 21
+    placeholder_text: '''Use slicing to extract the red channel'''
+  - offset: 193
+    length: 21
+    placeholder_text: '''Use slicing to extract the green channel'''
+  - offset: 230
+    length: 21
+    placeholder_text: '''Use slicing to extract the blue channel'''
 - name: __init__.py
   visible: false
 - name: horse.jpg
@@ -9,4 +19,8 @@ files:
 - name: tests/test_task.py
   visible: false
 - name: tests/__init__.py
+  visible: false
+- name: image_array.png
+  visible: false
+- name: image_array_dark.png
   visible: false
