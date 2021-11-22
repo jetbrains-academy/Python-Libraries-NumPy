@@ -1,0 +1,12 @@
+type: theory
+files:
+- name: task.py
+  visible: true
+- name: __init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: image_array.png
+  visible: false
+- name: image_array_dark.png
+  visible: false
