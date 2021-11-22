@@ -20,7 +20,7 @@ uses less singular value information than the original one, while still retainin
 > only support 2D arrays. For more information on this, check the [scipy.linalg Reference](https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html). </i>
 
 In order to extract information from a given matrix, we can use the SVD to obtain 3 arrays which 
-can be multiplied to obtain the original matrix. From the theory of linear algebra, given a real matrix $A$, 
+can be multiplied to obtain the original matrix. From the theory of linear algebra, given a real $m \times n$ matrix $A$, 
 the following product can be computed:
 
 $$U\Sigma V^T = A$$

@@ -1,4 +1,4 @@
-Let’s see how this works in practice with just one matrix first.
+Let’s see how SVD works in practice with just one matrix first.
 Note that according to [colorimetry](https://en.wikipedia.org/wiki/Grayscale#Colorimetric_(perceptual_luminance-reserving)_conversion_to_grayscale), it is possible to obtain a fairly
 reasonable grayscale version of our color image if we apply the formula:
 
