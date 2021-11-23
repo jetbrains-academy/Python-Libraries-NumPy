@@ -28,3 +28,4 @@ $$U\Sigma V^T = A$$
 where $U$ is an $m \times m$ complex unitary matrix, $V$ is an $n\times n$ complex unitary matrix. $\Sigma$ is an $m\times n$ rectangular diagonal matrix with
 non-negative real numbers on the diagonal, organized from largest to smallest.
 These values can be used as an indicator of the "importance" of some features represented by the matrix $A$.
+$U$ and $V^T$ are [orthogonal](https://en.wikipedia.org/wiki/Orthogonal_matrix) matrices.
