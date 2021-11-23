@@ -15,5 +15,6 @@ np.fill_diagonal(Sigma, s)
 
 if __name__ == '__main__':
     print(Sigma.shape)
-    print(Sigma)
+    print(linalg.norm(img_gray - U @ Sigma @ Vt))
+    print(np.allclose(img_gray, U @ Sigma @ Vt))
 
