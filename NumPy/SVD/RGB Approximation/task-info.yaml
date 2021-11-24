@@ -1,0 +1,19 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 436
+    length: 35
+    placeholder_text: '''Calcuate the approximation'''
+  - offset: 544
+    length: 35
+    placeholder_text: '''Reorder the axes'''
+- name: __init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
