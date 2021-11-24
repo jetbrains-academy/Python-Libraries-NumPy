@@ -31,3 +31,12 @@ The suggested solution uses [ellipsis](https://numpy.org/devdocs/user/basics.ind
 for the selection tuple to index all dimensions.
 </div>
 
+## Final words
+
+Of course, this is not the best method out there to approximate an image.
+However, it results, in fact, from linear algebra that the
+approximation we built here is the best we can get to the original matrix
+in terms of the norm of the difference.
+
+For more information, see <i>G. H. Golub and C. F. Van Loan, Matrix Computations, Baltimore, MD, Johns Hopkins University Press, 1985</i>.
+
