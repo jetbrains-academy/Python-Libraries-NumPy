@@ -18,7 +18,7 @@ After running the script, note the shape of `reconstructed`.
 
 The reconstructed image should be indistinguishable from the original one, except 
 for differences due to floating point errors from the reconstruction. Recall that 
-our original image consisted of floating point values in the range [0., 1.]. 
+our original image consisted of floating point values in the range `[0., 1.]`. 
 The accumulation of floating point error from the reconstruction can result in 
 values slightly outside this original range (check out the output of the second print statement in `main`).
 Since `imshow` expects values in the range, we can use [`clip`](https://numpy.org/doc/stable/reference/generated/numpy.clip.html) to excise the floating point error:

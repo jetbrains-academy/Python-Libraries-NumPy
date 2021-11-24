@@ -6,12 +6,12 @@ files:
   - offset: 248
     length: 23
     placeholder_text: '''Create an array of zeros'''
-  - offset: 272
-    length: 65
-    placeholder_text: '# TODO: iteratively fill it with values from s'
   - offset: 354
     length: 14
     placeholder_text: '''Rebuild the full SVD with no approximation'''
+  - offset: 272
+    length: 64
+    placeholder_text: '# TODO: iteratively fill it with values from s'
 - name: __init__.py
   visible: false
 - name: horse.jpg
