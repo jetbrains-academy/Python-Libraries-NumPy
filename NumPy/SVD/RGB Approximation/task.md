@@ -16,6 +16,10 @@ This part of the task is not checked, but you probably want to complete it to se
 
 Try running this with different values of `k`.
 
+Even though the image is not as sharp, using only a small number of `k` singular values 
+(compared to the original set of 408 values), we can recover many of the distinguishing 
+features from this image.
+
 <div class="hint">To get the approximation, calculate the product of three matrices once again,
 but slice them to keep only the components you need.</div>
 
