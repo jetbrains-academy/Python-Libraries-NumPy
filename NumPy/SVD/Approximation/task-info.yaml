@@ -15,4 +15,4 @@ files:
 - name: tests/__init__.py
   visible: false
 - name: s_values.png
-  visible: true
+  visible: false
