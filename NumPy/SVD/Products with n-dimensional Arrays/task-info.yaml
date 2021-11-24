@@ -1,0 +1,22 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 248
+    length: 23
+    placeholder_text: '''Create an array of zeros'''
+  - offset: 272
+    length: 65
+    placeholder_text: '# TODO: iteratively fill it with values from s'
+  - offset: 354
+    length: 14
+    placeholder_text: '''Rebuild the full SVD with no approximation'''
+- name: __init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
