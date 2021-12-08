@@ -19,4 +19,4 @@ try:
 except TypeError:
     class TestCase2(unittest.TestCase):
         def test_bad(self):
-            self.assertTrue(False, msg='Your function definition possibly has an invalid number of arguments.')
+            self.fail('Your function definition possibly has an invalid number of arguments.')

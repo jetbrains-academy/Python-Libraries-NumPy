@@ -14,11 +14,17 @@ class TestCase(unittest.TestCase):
                                       err_msg="Your function does something else. Please check out the expected result in the"
                                               "task description.")
 
-    def test_chars(self):
+    def test_punctuation(self):
         txt = remove_extra_stuff(test_text)
-        check_digits = [char not in element for char in string.digits for element in txt]
-        check_whitespace = [char not in element for char in string.whitespace for element in txt]
         check_punctuation = [char not in element for char in string.punctuation for element in txt]
         self.assertTrue(all(check_punctuation), msg='Your result still contains punctuation.')
+
+    def test_digits(self):
+        txt = remove_extra_stuff(test_text)
+        check_digits = [char not in element for char in string.digits for element in txt]
         self.assertTrue(all(check_digits), msg='Your result still contains digits.')
+
+    def test_whitespaces(self):
+        txt = remove_extra_stuff(test_text)
+        check_whitespace = [char not in element for char in string.whitespace for element in txt]
         self.assertTrue(all(check_whitespace), msg='Your result still contains whitespaces.')

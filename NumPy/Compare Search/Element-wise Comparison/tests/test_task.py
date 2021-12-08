@@ -7,7 +7,7 @@ from task import *
 class TestCase(unittest.TestCase):
     def test_array_b(self):
         test_b = np.arange(0, 25, 6)
-        self.assertEqual(b.shape, test_b.shape, msg='Shape of array b has to be (5,).')
+        self.assertEqual(test_b.shape, b.shape, msg='Shape of array b has to be (5,).')
 
     def test_array_c(self):
         test_b = np.arange(0, 25, 6)

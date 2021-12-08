@@ -4,8 +4,10 @@ from task import x, w
 
 
 class TestCase(unittest.TestCase):
-    def test_shape(self):
-        self.assertEqual(x.shape, (10, 1), msg="Wrong shape of x.")
-        self.assertEqual(w.shape, (3, 4), msg="Wrong shape of w.")
+    def test_shape_x(self):
+        self.assertEqual((10, 1), x.shape, msg="Wrong shape of x.")
+
+    def test_shape_w(self):
+        self.assertEqual((3, 4), w.shape, msg="Wrong shape of w.")
 
 

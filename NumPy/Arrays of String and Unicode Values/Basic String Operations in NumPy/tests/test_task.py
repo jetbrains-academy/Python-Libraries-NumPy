@@ -24,11 +24,18 @@ class TestCase(unittest.TestCase):
         uppercase_text = read_data('text.txt')
         np.testing.assert_array_equal(uppercase_text, test_uppercase_text, err_msg='The first function does not work '
                                                                                    'as expected.')
-        self.assertEqual(uppercase_text.shape, test_uppercase_text.shape, msg="Expected array shape is (8,).")
+
+    def test_upper_shape(self):
+        uppercase_text = read_data('text.txt')
+        self.assertEqual(test_uppercase_text.shape, uppercase_text.shape, msg="Expected array shape is (8,).")
 
     def test_lengths(self):
         uppercase_text = read_data('text.txt')
         line_lengths = get_line_lengths(uppercase_text)
         np.testing.assert_array_equal(line_lengths, test_line_lengths, err_msg='The second function does not work '
                                                                                'as expected.')
-        self.assertEqual(line_lengths.shape, test_line_lengths.shape, msg="Expected array shape is (8,).")
+
+    def test_lengths_shape(self):
+        uppercase_text = read_data('text.txt')
+        line_lengths = get_line_lengths(uppercase_text)
+        self.assertEqual(test_line_lengths.shape, line_lengths.shape, msg="Expected array shape is (8,).")

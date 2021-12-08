@@ -12,21 +12,31 @@ test_most_frequent_measurement = test_unique_measurements.flatten()[test_most_fr
 
 
 class TestCase(unittest.TestCase):
-    def test_data(self):
+    def test_import(self):
         np.testing.assert_array_equal(csv, test_csv, err_msg='Dataset is imported improperly.')
+
+    def test_measurements(self):
         np.testing.assert_array_equal(data, test_data, err_msg='Array of measurements is off.')
+
+    def test_labels(self):
         np.testing.assert_array_equal(labels, test_labels, err_msg='Labels array is off.')
 
-    def test_unique(self):
+    def test_set_of_classes(self):
         np.testing.assert_array_equal(classes, test_classes,
                                       err_msg='The set of classes is wrong.')
+
+    def test_unique_measurements(self):
         np.testing.assert_array_equal(unique_measurements, test_unique_measurements,
                                       err_msg='The set of unique measurements is wrong.')
+
+    def test_occurrences(self):
         np.testing.assert_array_equal(unique_data_counts, test_unique_data_counts,
                                       err_msg='The set containing the number of occurrences of the unique values is wrong.')
 
-    def test_most_frequent(self):
-        self.assertEqual(most_frequent_index, test_most_frequent_index,
+    def test_most_frequent_index(self):
+        self.assertEqual(test_most_frequent_index, most_frequent_index,
                          msg="The index of the most frequent value is incorrect.")
-        self.assertEqual(most_frequent_measurement, test_most_frequent_measurement,
+
+    def test_most_frequent_value(self):
+        self.assertEqual(test_most_frequent_measurement, most_frequent_measurement,
                         msg="The most frequent value is identified incorrectly.")

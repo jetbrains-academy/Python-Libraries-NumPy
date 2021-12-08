@@ -5,10 +5,19 @@ from task import create_arrays
 
 
 class TestCase(unittest.TestCase):
-    def test_create_arrays(self):
+    def test_dtype_ones(self):
         a, b = create_arrays(2, 3)
-        self.assertEqual(a.dtype, 'int64', msg="Wrong dtype in the .ones array.")
-        self.assertEqual(a.shape, (3, 2), msg="Wrong shape of the .ones array.")
-        self.assertEqual(b.dtype, 'bool', msg="Wrong dtype in the .full array.")
-        self.assertEqual(b.shape, (3, 2), msg="Wrong shape of the .full array.")
+        self.assertEqual('int64', a.dtype, msg="Wrong dtype in the .ones array.")
+
+    def test_shape_ones(self):
+        a, b = create_arrays(2, 3)
+        self.assertEqual((3, 2), a.shape, msg="Wrong shape of the .ones array.")
+
+    def test_dtype_full(self):
+        a, b = create_arrays(2, 3)
+        self.assertEqual('bool', b.dtype, msg="Wrong dtype in the .full array.")
+
+    def test_shape_full(self):
+        a, b = create_arrays(2, 3)
+        self.assertEqual((3, 2), b.shape, msg="Wrong shape of the .full array.")
 
