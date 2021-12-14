@@ -72,11 +72,11 @@ for example, the [sigmoid](https://en.wikipedia.org/wiki/Logistic_function) func
 
 Let's pretend we have already trained a neural network with 2 layers and obtained
 the weights of all the nodes which produce a decent result (`weights_layer1` and `weights_layer2`).
-Test data (`csv`) is loaded from a file. Split it into arrays `values` and classes `labels` (labels are in the last column).
+Test data (`csv`) is loaded from a file. Split it into arrays `values` and class `labels` (labels are in the last column).
 Then complete the implementation of the function `predict`, which does the following:
 - accepts the data and processes it on the first layer: $\sigma(X * W_1)$, where $X * W_1$ is the matrix product
 of input data and weight arrays, and $\sigma$ is the sigmoid function;
-- processes the result of the first layer on the second layer in the same way but using different weights;
+- processes the result of the first layer on the second layer in the same way but using the other set of weights;
 - returns the result in a form that can be directly compared with actual class labels.
 
 The accuracy of your predictions will be printed if you run the script.
