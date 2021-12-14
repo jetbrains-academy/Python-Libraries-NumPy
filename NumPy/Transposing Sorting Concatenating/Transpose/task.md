@@ -3,11 +3,11 @@
 When you transpose an array, the row and column indices of every 
 element are switched. Item `[0, 1]`, for example, becomes item `[1, 0]`.
 [`numpy.ndarray.transpose`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.transpose.html#numpy.ndarray.transpose) returns a view of the array with axes transposed.
-Alternatively you can also use the attribute [`a.T`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.T.html#numpy.ndarray.T).
+Alternatively, you can also use the attribute [`a.T`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.T.html#numpy.ndarray.T).
 
-This method accepts `None` or a tuple of `int`s. In the case of `None` or no argument it reverses the order of the axes.
-In the case of a tuple of `int`s: `i` in the `j`-th place in the tuple means that `a`’s `i`-th axis becomes `a.transpose()`’s `j`-th axis.
-To illustrate:
+This method accepts `None` or a tuple of `int`s. In the case of `None` or no argument, it reverses the order of the axes.
+In the case of a tuple of `int`s, `i` in the `j`-th place in the tuple means that `a`’s `i`-th axis becomes `a.transpose()`’s `j`-th axis.
+To illustrate it:
 
 ```python
 a = np.arange(15).reshape(3, 5)
@@ -24,18 +24,18 @@ Output (all print the same thing):
  [ 4  9 14]]
 ```
 
-> <i>Method [`numpy.ndarray.reshape`](course://Numpy_/Array Basics/Reshape) we encountered earlier
+> <i>The method [`numpy.ndarray.reshape`](course://Numpy_/Array Basics/Reshape) we encountered earlier
 gives a new shape to an array without changing its data and can also be used for transposing.</i>
 
 ### Task 
 1. Transpose the array `a`.
-2. Transform array `b` so that it looks like this:
+2. Transform the array `b` so that it looks like this:
 ```text
    [[0 1 2]
    [3 4 5]
    [6 7 8]]
 ```
-3. Use numpy methods `arange`, `reshape` and `transpose` to acquire a 3-D array `c` that looks like this:
+3. Use numpy methods `arange`, `reshape`, and `transpose` to acquire a 3D array `c` that looks like this:
 ```text
 [[[ 0  4  8]
   [ 2  6 10]]
@@ -46,4 +46,4 @@ gives a new shape to an array without changing its data and can also be used for
 
 <div class="hint">You can use either <code>a.T</code> or <code>a.transpose()</code> for the first two arrays.</div>
 
-<div class="hint">In #3 use the methods in the suggested order. You can do it in one line of code.</div>
+<div class="hint">In #3, use the methods in the suggested order. You can do it in one line of code.</div>

@@ -1,12 +1,12 @@
 ## Reading and Writing Files
 
 You will, at some point, want to save your arrays to disk and load them back without having to 
-re-run the code. Fortunately, there are several ways to save and load objects with NumPy. The 
-`ndarray` objects can be saved to and loaded from the disk files with [`loadtxt`](https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html#numpy.loadtxt) 
-and [`savetxt`](https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html?highlight=savetxt#numpy.savetxt) functions 
-that handle normal text files. 
+re-run the code. Fortunately, there are several ways to save and load objects with NumPy.
+`ndarray` objects can be saved to and loaded from disk files with [`loadtxt`](https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html#numpy.loadtxt) 
+and [`savetxt`](https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html?highlight=savetxt#numpy.savetxt) functions, 
+which handle normal text files. 
 
-Let's say you have a file 'my_data.csv' that looks like this:
+Let's say you have a file 'my_data.csv', which looks like this:
 ```text
 id,value,size,amount
 1,0.0660924327,8422,3
@@ -21,7 +21,7 @@ arr = np.loadtxt('my_data.csv.csv', delimiter=',', skiprows=1)
 You need to specify the delimiter and the number of rows that need to be skipped (header lines).
 
 If there are missing values in your data, use [`numpy.genfromtxt`](https://numpy.org/doc/stable/reference/generated/numpy.genfromtxt.html#numpy.genfromtxt).
-Let's say in the same dataset you saw before there was actually a couple of missing values. 
+Let's say the above dataset does actually have a couple of missing values. 
 ```python
 arr = np.genfromtxt('my_data.csv', delimiter=',', skip_header=1)
 print(arr)
@@ -36,11 +36,11 @@ Output:
 ### Saving an array to a text file
 
 [`numpy.savetxt`](https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html?highlight=savetxt#numpy.savetxt) will help you with this.
-Examples:
+Here are some examples:
 ```python
 x = y = z = np.arange(0.0,5.0,1.0)
 np.savetxt('test.out', x, delimiter=',')    # X is an array
-np.savetxt('test.out', (x,y,z))   # x,y,z equal sized 1D arrays
+np.savetxt('test.out', (x,y,z))   # x,y,z are equal sized 1D arrays
 np.savetxt('test.out', x, fmt='%1.4e')   # use exponential notation
 ```
 Output:

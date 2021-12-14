@@ -34,5 +34,5 @@ The transpose of the 1D array is the same as the array itself,
 but the transpose of the 2D array is something completely different.
 
 ### Task
-Implement the function `reshape_transpose` which accepts three parameters,
-`start`, `stop` and `step`, generates a 1D array using `arange` and returns a transposed array.
+Implement the function `reshape_transpose`, which accepts three parameters:
+`start`, `stop`, and `step`, generates a 1D array using `arange`, and returns a transposed array.

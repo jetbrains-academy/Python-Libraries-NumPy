@@ -7,7 +7,7 @@ that are sometimes easier to read.
 `numpy.concatenate()` is used to join a sequence of arrays along an existing axis. It accepts 
 a sequence of arrays of the same shape except in the dimension specified by the optional 
 parameter `axis`, which is the axis along which the arrays will be joined. 
-If `axis` is `None`, arrays are flattened before use. Default is `0`. The function 
+If `axis` is `None`, arrays are flattened before use. The default value is `0`. The function 
 returns the concatenated array.
 
 ```python
@@ -31,7 +31,7 @@ Output:
 ### Stack
 1. [`numpy.stack()`](https://numpy.org/doc/stable/reference/generated/numpy.stack.html#numpy.stack) joins 
 a sequence of arrays along a **new axis**. The `axis` parameter specifies the index of the new axis in 
-the dimensions of the result. For example, if `axis=0` it will be the first dimension and if `axis=-1` 
+the dimensions of the result. For example, if `axis=0`, it will be the first dimension, and if `axis=-1`,
 it will be the last dimension.
 
 ```python
@@ -52,8 +52,8 @@ Output:
   [4 4]]]
 ```
 2. [`numpy.hstack`](https://numpy.org/doc/stable/reference/generated/numpy.hstack.html#numpy.hstack) stacks
-arrays in sequence horizontally (column wise).
-This is equivalent to concatenation along the second axis, except for 1-D arrays where it concatenates along the first axis:
+arrays in sequence horizontally (column-wise).
+This is equivalent to concatenation along the second axis, except for 1D arrays, where it concatenates along the first axis:
 ```python
 a, b = np.array((1, 2, 3)), np.array((4, 5, 6))
 print(np.hstack((a, b)))
@@ -68,8 +68,8 @@ Output:
  [3 6]]
 ```
 3. [`numpy.vstack`](https://numpy.org/doc/stable/reference/generated/numpy.vstack.html#numpy.vstack) stacks
-arrays in sequence vertically (row wise). This is equivalent to concatenation along the first axis after 
-1-D arrays of shape `(N,)` have been reshaped to `(1, N)`.
+arrays in sequence vertically (row-wise). This is equivalent to concatenation along the first axis after 
+1D arrays of shape `(N,)` have been reshaped to `(1, N)`.
 ```python
 a, b = np.array((1, 2, 3)), np.array((4, 5, 6))
 print(np.vstack((a, b)))
@@ -89,7 +89,7 @@ Output:
 ```
 
 ### Task
-1. You are given an array of zeros `a` of shape `(3, 4)`. Create an array `b`, such that
+1. You are given an array of zeros `a` of the shape `(3, 4)`. Create an array `b` such that
 when you concatenate it appropriately with `a`, you get:
 ```text
 [[0 0 0 0]
