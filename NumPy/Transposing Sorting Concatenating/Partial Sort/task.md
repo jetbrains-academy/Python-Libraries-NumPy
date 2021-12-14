@@ -1,24 +1,24 @@
-## Partial sort (partition)
+## Partial Sort (Partition)
 
-If you have some dataset in the form of a numpy array, and you only want to get `k` smallest numbers from it instead of fully sorting it,
-this task can be performed using [`numpy.partition()`](https://numpy.org/doc/stable/reference/generated/numpy.partition.html#numpy.partition) method.
-This is called **partial sort** because we actually will be sorting only some parts of the array, or 
-it can be said we will be getting a **partition** of `k` smallest values.
+If you have some dataset in the form of a numpy array and you only want to get `k` smallest numbers from it instead of fully sorting it,
+this task can be performed using the [`numpy.partition()`](https://numpy.org/doc/stable/reference/generated/numpy.partition.html#numpy.partition) method.
+This is called **partial sort** because we will actually be sorting only some parts of the array, 
+which means we will be getting a **partition** of `k` smallest values.
 
 `numpy.partition()` creates a copy of the array with its elements rearranged in such a way that the element in the
 k-th position is where it would be in a sorted array. All elements smaller than the k-th element 
-are moved before this element and all **equal or greater** are moved behind it. The ordering of the elements 
+are moved before this element, and all **equal or greater** are moved behind it. The ordering of the elements 
 in the two partitions is undefined.
 
-The method accepts the array to be sorted and an element index to partition by.
-In the example below, the dataset of 10 integers is partitioned by the 5th element
+The method accepts the array to be sorted and an element index to partition it by.
+In the example below, the dataset of 10 integers is partitioned by the 5th element:
 
 ```text
 a = np.array([6, 0, 5, 2, 17, 2, 10, 17, 0, 13])
 b = np.partition(a, 4)
 print(a, '\n', b)
 ```
-Output (the ^ indicates the element by which the array was partitioned):
+Output (the ^ sign indicates the element by which the array was partitioned):
 ```text
 [ 6  0  5  2 17  2 10 17  0 13] 
 [ 0  0  2  2  5  6 10 13 17 17]
@@ -56,8 +56,8 @@ Output:
 You have an array `arr` with 20 random numbers and a target value `target`. You need to find `k = 3` data points
 in the array `arr` that are the closest to `target` by value. The array `differences` contains the distances
 between `target` and each element of `arr`.
-1. Get indices of `distances` partitioned by the k-th element.
+1. Get the indices of `distances` partitioned by the k-th element.
 2. Rearrange `arr` using those indices and
-3. Get only the `k` nearest elements to `target`.
+3. Get only `k` nearest elements to `target`.
 
 <div class="hint">See examples in the task description for 1 and 2. Use slicing for 3.</div>

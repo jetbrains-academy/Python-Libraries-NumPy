@@ -18,9 +18,9 @@ Output:
 You can specify the number of bins (`bins=10` by default) and `range`, which is `(a.min(), a.max())` by default. 
 The function returns two arrays: the values of the histogram and the bin edges.
 It can also return the value of the probability density function at each bin (normalized such that the integral over the range is 1) instead 
-of the number of samples in the bin, if you use the `density=True` argument.
+of the number of samples in the bin if you use the `density=True` argument.
 
-Using the array `a` we defined earlier:
+Using the array `a` we defined earlier, we get:
 ```python
 bincounts = np.bincount(a)
 hist, _ = np.histogram(a, range=(0, a.max()), bins=a.max() + 1)
@@ -34,8 +34,8 @@ If the input array is multidimensional, the histogram is computed over the flatt
 
 ### Task
 
-Using some of the functions you learned in this and in previous tasks, find the most frequent class in the data.
+Using some of the functions you've learned in this and in previous tasks, find the most frequent class in the data.
 
 <div class="hint">It might be helpful to use <code>np.bincount</code> on class labels.</div>
 <div class="hint">When you've got the binned array, the only thing left to do is get the most populous class using one of the 
-functions for finding maxima that we've discussed earlier.</div>
+functions for finding maxima that we discussed earlier.</div>

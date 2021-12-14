@@ -2,17 +2,17 @@
 
 Reshaping means changing the `shape` of an array without changing its data.
 As we mentioned earlier, the `shape` of an array is the number of elements in each dimension.
-By reshaping we can add or remove dimensions or change the number of elements in each dimension.
+By reshaping, we can add or remove dimensions, or change the number of elements in each dimension.
 
 The function [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html#numpy.reshape) 
-is used for reshaping, and it accepts three arguments:
+is used for reshaping; it accepts three arguments:
 
 - The array to be reshaped.
 - The new shape as an `int` or tuple of `int` values.
 - An optional argument `order`, which defines the order in which the elements are read and placed into the reshaped array.
 
 ### Examples
-1. Reshape 1D array into a 2D array:
+1. Reshape a 1D array into a 2D array:
 ```python
 a = np.arange(10)
 print(np.reshape(a, (2, 5)))
@@ -44,7 +44,7 @@ Output:
 ```
 
 ### Task
-1. Create an array `a` of integers in the interval from `12` to `30` with step `3`.
+1. Create an array `a` of integers in the interval from `12` to `30` with the step `3`.
 2. Reshape it so that it has 2 rows and 3 columns.
 
 <div class="hint">For (1) you can use the <code>arange</code> function.</div>

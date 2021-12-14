@@ -3,15 +3,15 @@
 Sometimes, the size of an array is known, while its elements are originally unknown. 
 NumPy offers several functions to create arrays with initial placeholder content:
 
-- the function [`zeros`](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html?highlight=zeros#numpy.zeros) creates an array full of zeros,
-- the function [`ones`](https://numpy.org/doc/stable/reference/generated/numpy.ones.html?highlight=ones#numpy.ones) creates an array full of ones,
+- the function [`zeros`](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html?highlight=zeros#numpy.zeros) creates an array full of zeros;
+- the function [`ones`](https://numpy.org/doc/stable/reference/generated/numpy.ones.html?highlight=ones#numpy.ones) creates an array full of ones;
 - the function [`empty`](https://numpy.org/doc/stable/reference/generated/numpy.empty.html#numpy.empty) creates an array where the initial content is random and 
 depends on the state of the memory.
 
 <div class="hint">
 
 By default, the `dtype` of an array created in such a way is [`float64`](https://numpy.org/doc/stable/reference/arrays.scalars.html?highlight=float64#numpy.float64), 
-but it can be specified with the keyword argument `dtype`.
+but it can be specified otherwise with the keyword argument `dtype`.
 </div>
 
 ```python
@@ -35,8 +35,8 @@ Output:
  [3.95252517e-323 1.18575755e-322 3.95252517e-323]]
 ```
 
-Another function, [`full`](https://numpy.org/doc/stable/reference/generated/numpy.full.html#numpy.full) 
-returns a new array of given shape and type, filled with a specified value.
+Another function, [`full`](https://numpy.org/doc/stable/reference/generated/numpy.full.html#numpy.full), 
+returns a new array of a given shape and type filled with a specified value.
 
 ```python
 a = np.full((2, 2), 10)
@@ -50,8 +50,8 @@ Output:
 
 ### Task
 Complete the implementation of the function `create_arrays()` to create arrays `a` and `b`, where:
-- array `a` contains only values `1` of `dtype` `int64` (or `int`).
-- array `b` contains only values `True`
+- array `a` contains only the values `1` of `dtype` `int64` (or `int`);
+- array `b` contains only the values `True`.
 
-<div class="hint">For <code>a</code>, use the function <code>numpy.ones</code></div>
-<div class="hint">For <code>b</code>, use the function <code>numpy.full</code></div>
+<div class="hint">For <code>a</code>, use the function <code>numpy.ones</code>.</div>
+<div class="hint">For <code>b</code>, use the function <code>numpy.full</code>.</div>

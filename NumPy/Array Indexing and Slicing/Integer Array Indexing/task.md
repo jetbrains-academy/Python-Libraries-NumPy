@@ -1,4 +1,4 @@
-## Integer array indexing
+## Integer Array Indexing
 
 NumPy arrays may be indexed with other arrays.
 For all cases of index arrays, what is returned is a copy of the original data, not a view as one gets for slices.
@@ -53,16 +53,16 @@ Output:
  
 [ 0  3 13]
 ```
-You can see that in the first case, a new array is constructed where 
+You can see that in the first case, a new array is constructed, where 
 each value of the index array selects one row from the indexed array and the resulting 
 array has the shape `(number_of_index_elements, size_of_row)`.
 
 In the second case, the resulting array has the same shape as the index arrays, and the values 
 correspond to the index set for each position in the index arrays. In this example, the first 
 index value is `0` for both index arrays, and thus the first value of the resulting array is `x[0, 0]`. 
-The next value is `y[1, 0]`, and the last is `y[4, 1]`.
+The next value is `y[1, 0]`, and the last one is `y[4, 1]`.
 
-If the index arrays do not have the same shape, there is an attempt to broadcast them to the same shape. 
+If the index arrays do not have the same shape, an attempt is made to broadcast them to the same shape. 
 If they cannot be broadcast to the same shape, an exception is raised.
 
 The broadcasting mechanism permits index arrays to be combined with scalars for other indices. 
@@ -79,13 +79,13 @@ Output:
 You can read more about integer indexing [here](https://numpy.org/doc/stable/reference/arrays.indexing.html#integer-array-indexing).
 
 ### Task
-1. Using integer array indexing create an array `a` that contains elements with 
+1. Using integer array indexing, create an array `a` that contains elements with 
    indices `[7, 13, 28, 33]` from the array `x`.
-   Then create a 2-D array `b` with shape `(3, 3)` that contains elements with indices
+   Then create a 2D array `b` with the shape `(3, 3)` that contains elements with indices
    `[0, 1, 2], [10, 11, 12], [28, 29, 30]` from the array `x`.
    
-2. Based on the 2-D array `y`:
-   - Create an array `c` containing rows number `0`, `2` and `4`.
-   - Create a 1-D array `d`, containing elements `0`, `1` and `2` from the rows `0`, `2` and `4`, respectively.
-   - Create a 1-D array `e`, containing elements with index `6` from rows `1`, `2` and `4`.
+2. Based on the 2D array `y`:
+   - Create an array `c` containing rows number `0`, `2`, and `4`.
+   - Create a 1D array `d` containing elements `0`, `1`, and `2` from the rows `0`, `2`, and `4`, respectively.
+   - Create a 1D array `e` containing elements with the index `6` from rows `1`, `2`, and `4`.
     
