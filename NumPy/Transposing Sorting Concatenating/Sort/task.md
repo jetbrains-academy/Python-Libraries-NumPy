@@ -5,12 +5,12 @@ and [`numpy.ndarray.sort`](https://numpy.org/doc/stable/reference/generated/nump
 the only difference being that the former returns a sorted copy of an array, while the latter is used 
 to sort in-place.
 
-<div class="hint">
+<details>
 
 Various sorting algorithms can be used with these methods (see the documentation); they differ in 
 their average speed, worst-case performance, work space size, and stability.
 The default is [quicksort](https://en.wikipedia.org/wiki/Quicksort).
-</div> 
+</details>
 
 ```python
 a = np.array([[1, 4], [3, 1]])
