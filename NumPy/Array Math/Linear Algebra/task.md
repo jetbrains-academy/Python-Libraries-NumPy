@@ -38,8 +38,7 @@ Output:
  [ 0 40]]
 ```
 
-<details>
-<summary><code>numpy.matmul</code></summary>
+<div class="hint">
 
 There's also the [`numpy.matmul(a, b)`](https://numpy.org/doc/stable/reference/generated/numpy.matmul.html)
 function (shorthand: `@`). `matmul` differs from `dot` in two important ways:
@@ -58,7 +57,7 @@ Output:
 [[ 0 20]
  [ 0 40]]
 ```
-</details>
+</div>
 
 Matrix multiplication is arguably the most important and widely used operation in machine learning.
 It is used in linear regression, various kinds of neural networks, and other approaches.
