@@ -16,6 +16,9 @@ After completing this tutorial, you should be able to:
 - Understand axis and shape properties for n-dimensional arrays.
 
 #### Content
-In this tutorial, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra,
+In this lesson, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra,
 the Singular Value Decomposition, to generate a compressed approximation of an image. 
+
+The lesson is based on the NumPy tutorial ["Linear algebra on n-dimensional arrays"](https://numpy.org/numpy-tutorials/content/tutorial-svd.html).
+
 
