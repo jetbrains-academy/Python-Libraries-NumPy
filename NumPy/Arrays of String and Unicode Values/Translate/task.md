@@ -70,3 +70,8 @@ of characters.</div>
 
 <div class="hint">Check out the page describing string constants linked in the
 task description to find the ones you can use.</div>
+
+--------------------------------------------------------------------------------
+
+Congratulations on completing the first part of the course! Now you might want 
+to move on to the next section to try yourself in solving some problems that are closer to real-life applications.
