@@ -9,9 +9,9 @@ matrices in the stack), and only the first `k` components
 in the second-to-last axis of `Vt` (this means we select only the first 
 `k` rows from every matrix in the stack `Vt` and all columns). 
 
-The shape of the resulting array will be `(3, 408, 612)`, which
-is not the right shape for showing the image. In `main`, reorder the axes back 
-to our original shape to that you can see the approximation when running the script.
+The shape of the resulting array will be `(3, 408, 612)` (check out the output of the print
+statement), which is not the right shape for showing the image. Inside the `plt.imshow()` function, 
+reorder the axes back to our original shape so that you can see the approximation when running the script.
 This part of the task is not checked, but you probably want to complete it to see the result!
 
 Try running this with different values of `k`.

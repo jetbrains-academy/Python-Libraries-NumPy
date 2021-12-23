@@ -5,8 +5,8 @@ files:
   placeholders:
   - offset: 436
     length: 35
-    placeholder_text: '''Calcuate the approximation'''
-  - offset: 544
+    placeholder_text: '''Calculate the approximation'''
+  - offset: 484
     length: 35
     placeholder_text: '''Reorder the axes'''
 - name: __init__.py

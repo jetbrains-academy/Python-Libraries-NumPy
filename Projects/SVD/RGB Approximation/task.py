@@ -20,8 +20,8 @@ reconstructed = np.clip(reconstructed, 0, 1)
 k = 10
 approx_img = U @ Sigma[..., :k] @ Vt[..., :k, :]
 
+plt.imshow(np.transpose(approx_img, (1, 2, 0)))
+
 if __name__ == '__main__':
     print(approx_img.shape)
-
-    plt.imshow(np.transpose(approx_img, (1, 2, 0)))
     plt.show()
