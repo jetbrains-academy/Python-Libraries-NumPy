@@ -16,8 +16,9 @@ After completing this tutorial, you should be able to:
 - Understand axis and shape properties for n-dimensional arrays.
 
 #### Content
+Image compression is very useful because it allows saving images without taking up large amounts of memory (to approximate the data).
 In this lesson, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra,
-the Singular Value Decomposition, to generate a compressed approximation of an image. 
+the Singular Value Decomposition, to generate a compressed approximation of an image, while still retaining many of its features. 
 
 The lesson is based on the NumPy tutorial ["Linear algebra on n-dimensional arrays"](https://numpy.org/numpy-tutorials/content/tutorial-svd.html).
 
