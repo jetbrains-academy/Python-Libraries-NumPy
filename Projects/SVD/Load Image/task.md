@@ -18,9 +18,10 @@ see [A crash course on NumPy for images](https://scikit-image.org/docs/stable/us
 </div>
 
 ### Task
-First, let's check the number of dimensions of in our array.
 
-Then, print the shape of the array. 
+- First, let's check the number of dimensions of in our array.
+
+- Then, print the shape of the array. 
 
 
 Since this image is two-dimensional 
