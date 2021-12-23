@@ -37,4 +37,4 @@ img {
   margin-right: auto;
 }
 </style>
-<img src="svd.png" alt="svd" width="400">
+<img src="svd.png" alt="svd" width="500">
