@@ -1,10 +1,11 @@
 Each datapoint in our current dataset is in the interval from `0` to `255`.
 Since we are going to perform linear algebra operations on this data, 
-it might be more interesting to have real numbers between `0` and `1` in each 
+it might be better to have real numbers between `0` and `1` in each 
 entry of the matrices to represent the RGB values. 
 
 ### Task
-Perform an appropriate operation on the `img` array to achieve such rescaling.
+Perform an appropriate operation on the `img` array to achieve a rescaling,
+such that each datapoint is a real number between `0` and `1`.
 
 You can check that what you did works by doing some tests. For example, 
 inquiring about maximum and minimum values for this array.
