@@ -10,3 +10,4 @@ programming_language: Python
 environment: unittest
 content:
 - NumPy
+- Projects
