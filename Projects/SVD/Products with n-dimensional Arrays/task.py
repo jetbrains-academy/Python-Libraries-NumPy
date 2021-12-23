@@ -17,8 +17,9 @@ reconstructed = U @ Sigma @ Vt
 
 
 if __name__ == '__main__':
-    print(reconstructed.shape)
-    print(reconstructed.min(), reconstructed.max())
+    print('Shape of the reconstructed image array: ', reconstructed.shape)
+    print('Minimum value in the reconstructed image array: ', reconstructed.min())
+    print('Maximum value in the reconstructed image array: ', reconstructed.max())
     # This assertion will fail if your reconstruction isn't close to the original:
     np.testing.assert_array_almost_equal(reconstructed, img_array_transposed)
 
