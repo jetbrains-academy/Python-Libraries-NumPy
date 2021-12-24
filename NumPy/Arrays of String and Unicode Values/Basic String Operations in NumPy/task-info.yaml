@@ -20,3 +20,4 @@ files:
   visible: false
 - name: text.txt
   visible: true
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Arrays+of+String+and+Unicode+Values+/+Basic+String+Operations+in+NumPy
