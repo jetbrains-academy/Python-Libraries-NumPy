@@ -1,0 +1,19 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 227
+    length: 35
+    placeholder_text: '''Create a matrix of zeros'''
+  - offset: 263
+    length: 26
+    placeholder_text: '''Add singular values to the diagonal of Sigma'''
+- name: __init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

@@ -1,0 +1,19 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 9
+    placeholder_text: '''Check the shape of the image array'''
+  - offset: 138
+    length: 8
+    placeholder_text: '''Check the number of dimensions of the image array'''
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: horse.jpg
+  visible: true

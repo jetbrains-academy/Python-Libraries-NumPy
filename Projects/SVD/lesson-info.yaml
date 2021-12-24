@@ -1,0 +1,16 @@
+type: framework
+is_template_based: true
+content:
+- Introduction
+- Load Image
+- Access Red Pixel Data
+- Rescale Data
+- Split Color Channels
+- Singular Value Decomposition
+- Grayscale
+- SVD on One Matrix
+- Rebuild Diagonal Matrix
+- Approximation
+- Applying to All Colors
+- Products with n-dimensional Arrays
+- RGB Approximation
