@@ -15,6 +15,6 @@ inquiring about maximum and minimum values for this array.
 
 <div class="hint">
 
-You can use the [numpy.ndarray.max()](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.max.html) function on the objects of dtype ndarray
+You can use the [`numpy.ndarray.max()`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.max.html) function on the objects of dtype ndarray
 without importing NumPy.
 </div>
