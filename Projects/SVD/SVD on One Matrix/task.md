@@ -13,7 +13,7 @@ Expected result: (408, 408) (408,) (612, 612).
 
 <div class="hint">
 Note that with a larger image, this might take a while to run, depending on the 
-size of the image and your hardware. This is normal! The SVD can involve pretty intensive computation.
+size of the image and your hardware. This is normal! The SVD can be a pretty intensive computation.
 </div>
 
 
