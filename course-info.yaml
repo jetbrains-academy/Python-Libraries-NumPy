@@ -6,6 +6,10 @@ summary: |-
   - The course covers the most widely used Python libraries.
   - It contains hands-on examples of code implementation and exercises to practice new skills.
   - The course is based on the official documentation of the discussed libraries.
+vendor:
+  name: JetBrains
+  email: support@jetbrains.com
+  url: https://www.jetbrains.com/
 programming_language: Python
 environment: unittest
 content:
