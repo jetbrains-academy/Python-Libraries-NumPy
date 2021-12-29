@@ -2,23 +2,23 @@
 
 #### Learner profile
 This tutorial is for people who have a basic understanding of linear algebra and arrays in NumPy and 
-want to understand how n-dimensional (n >= 2) arrays are represented and can be manipulated. In particular, 
-if you don’t know how to apply common functions to n-dimensional arrays (without using for-loops), 
+want to find out how n-dimensional (n >= 2) arrays are represented and manipulated. In particular, 
+if you are curious how to apply common functions to n-dimensional arrays (without using for-loops) 
 or if you want to understand axis and shape properties for n-dimensional arrays, this tutorial might be of help.
 
 #### Learning Objectives
 After completing this tutorial, you should be able to:
 
-- Understand the difference between one-, two- and n-dimensional arrays in NumPy;
+- understand the difference between one-, two-, and n-dimensional arrays in NumPy;
 
-- Understand how to apply some linear algebra operations to n-dimensional arrays without using for-loops;
+- apply some linear algebra operations to n-dimensional arrays without using for-loops;
 
-- Understand axis and shape properties for n-dimensional arrays.
+- understand axis and shape properties for n-dimensional arrays.
 
 #### Content
-Image compression is very useful because it allows saving images without taking up large amounts of memory (to approximate the data).
-In this lesson, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra,
-the Singular Value Decomposition, to generate a compressed approximation of an image, while still retaining many of its features. 
+Image compression is a very useful thing because it allows saving images without taking up large amounts of memory (data approximation).
+In this lesson, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra
+and the singular value decomposition to generate a compressed approximation of an image while still retaining many of the original features. 
 
 The lesson is based on the NumPy tutorial ["Linear algebra on n-dimensional arrays"](https://numpy.org/numpy-tutorials/content/tutorial-svd.html).
 
