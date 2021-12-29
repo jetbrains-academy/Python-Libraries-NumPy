@@ -1,5 +1,5 @@
-<i>Apart fom NumPy we will be using another library called `matplotlib` in this lesson. 
-It will not be discussed in detail here, but there's going to be a separate chapter of the course 
+<i>Apart fom NumPy, in this lesson, we will be using another library called `matplotlib`. 
+We won't discuss it in detail here, but there's going to be a separate chapter of the course 
 dedicated to this library. For now, if you wish to find out more about it, please 
 refer to the [docs](https://matplotlib.org/stable/users/index.html).
 Matplotlib is a widely used comprehensive library for creating static, animated, and interactive visualizations in Python.</i>
@@ -19,7 +19,7 @@ see [A crash course on NumPy for images](https://scikit-image.org/docs/stable/us
 
 ### Task
 
-- First, let's check the number of dimensions of in our array.
+- First, let's check the number of dimensions in our array.
 
 - Then, print the shape of the array. 
 
@@ -30,9 +30,9 @@ represent it (a matrix). However, using the `ndim` and `shape` properties of thi
 different result.
 
 The output of `shape` is a tuple with three elements, which means that this is a three-dimensional array. 
-In fact, since this is a color image, and we used the `imread` function to read it, the 
-data is organized in three 2D arrays, representing color channels (in this case, red, green 
-and blue - RGB). You can see this by looking at the shape: it indicates that we have an 
+In fact, since this is a color image and we used the `imread` function to read it, the 
+data is organized in three 2D arrays representing color channels (in this case, red, green, 
+and blue – RGB). You can see this by looking at the shape: it indicates that we have an 
 array of 3 matrices, 408x612 each.
 
 

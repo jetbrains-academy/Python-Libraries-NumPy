@@ -3,12 +3,12 @@ function to the `img_gray` matrix, we can obtain its decomposition.
 
 ### Task
 
-Use SVD decomposition to obtain orthogonal matrices `U` and `Vt`, and the diagonal 
+Use the SVD decomposition to obtain orthogonal matrices `U` and `Vt` and the diagonal 
 matrix `s` from the `img_gray` matrix.
 Run the script to see if the result is what we would expect for a 408 x 612 image.
 
 <div class="hint">
-Expected result: (408, 408) (408,) (612, 612)
+Expected result: (408, 408) (408,) (612, 612).
 </div>
 
 <div class="hint">

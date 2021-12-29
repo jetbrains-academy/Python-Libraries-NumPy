@@ -23,7 +23,7 @@ The idea is to consider all but the first `k` singular values in `Sigma`
 computing the product of these matrices as the approximation.
 
 ## Task
-Build image approximation by computing the product of the orthogonal matrices and the
+Build an image approximation by computing the product of the orthogonal matrices and the
 first `k = 20` singular values of the diagonal matrix.
 Note that you have to use only the first `k` rows of `Vt`, since all other rows would be 
 multiplied by the zeros corresponding to the singular values we eliminated from this approximation.
@@ -40,5 +40,5 @@ Use slicing on matrices `Sigma` and `Vt`.
 </div>
 
 <div class="hint">
-The original matrix can be reconstructed as a product of the three matrices obtained with SVD.
+The original matrix can be reconstructed as a product of the three matrices obtained with the SVD.
 </div>

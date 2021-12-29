@@ -1,11 +1,11 @@
-Let’s see how SVD works in practice with just one matrix first.
+Let’s first see how the SVD works in practice with just one matrix.
 Note that according to [colorimetry](https://en.wikipedia.org/wiki/Grayscale#Colorimetric_(perceptual_luminance-reserving)_conversion_to_grayscale), it is possible to obtain a fairly
 reasonable grayscale version of our color image if we apply the formula:
 
 $$Y = 0.2126R + 0.7152G + 0.0722B$$
 
-where $Y$ is the array representing the resulting grayscale image, and $R$, $G$ and $B$ are the red,
-green and blue channel arrays we had originally. 
+where $Y$ is the array representing the resulting grayscale image, and $R$, $G$, and $B$ are the red,
+green, and blue channel arrays we had originally. 
 
 ### Task 
 
@@ -20,6 +20,6 @@ You can try dropping the `cmap` argument and see what happens.
 
 <div class="hint">
 
-Notice that we can use the `@` operator 
-(the matrix multiplication operator for NumPy arrays, see [`numpy.matmul`](https://numpy.org/devdocs/reference/generated/numpy.matmul.html#numpy.matmul)) for this.
+Notice that here we can use the `@` operator 
+(the matrix multiplication operator for NumPy arrays, see [`numpy.matmul`](https://numpy.org/devdocs/reference/generated/numpy.matmul.html#numpy.matmul)).
 </div>

@@ -4,11 +4,11 @@ it might be better to have real numbers between `0` and `1` in each
 entry of the matrices to represent the RGB values. 
 
 ### Task
-Perform an appropriate operation on the `img` array to achieve a rescaling,
+Perform an appropriate operation on the `img` array to achieve a rescaling
 such that each datapoint is a real number between `0` and `1`.
 
-You can check that what you did works by doing some tests. For example, 
-inquiring about maximum and minimum values for this array.
+You can check whether what you did works by doing some tests. For example, 
+inquiring about the maximum and minimum values for this array.
 
 
 <div class="hint">Division by a scalar is your friend.</div>
