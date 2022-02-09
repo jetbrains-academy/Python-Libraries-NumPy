@@ -52,6 +52,7 @@ Output:
 Complete the implementation of the function `create_arrays()` to create arrays `a` and `b`, where:
 - array `a` contains only the values `1` of `dtype` `int64` (or `int`);
 - array `b` contains only the values `True`.
+Both of the arrays should have the shape of `(x,y)`.
 
 <div class="hint">For <code>a</code>, use the function <code>numpy.ones</code>.</div>
 <div class="hint">For <code>b</code>, use the function <code>numpy.full</code>.</div>

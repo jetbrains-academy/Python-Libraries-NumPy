@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
 
     def test_shape_ones(self):
         a, b = create_arrays(2, 3)
-        self.assertEqual((3, 2), a.shape, msg="Wrong shape of the .ones array.")
+        self.assertEqual((2, 3), a.shape, msg="Wrong shape of the .ones array.")
 
     def test_dtype_full(self):
         a, b = create_arrays(2, 3)
@@ -19,5 +19,5 @@ class TestCase(unittest.TestCase):
 
     def test_shape_full(self):
         a, b = create_arrays(2, 3)
-        self.assertEqual((3, 2), b.shape, msg="Wrong shape of the .full array.")
+        self.assertEqual((2, 3), b.shape, msg="Wrong shape of the .full array.")
 
