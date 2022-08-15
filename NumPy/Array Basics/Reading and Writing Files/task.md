@@ -67,7 +67,7 @@ Output:
 
 ### Task 
 Read data from the file `somedata.csv` into the array `arr`.
-Run the script to see the results and the saved file.
+Run the script to see the results and the saved file (`test.out`).
 
 <div class="hint">There are missing values in the data.</div>
 <div class="hint">Mind the extra lines at the top.</div>
