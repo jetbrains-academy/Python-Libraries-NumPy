@@ -80,6 +80,6 @@ Read more about this topic [here](https://numpy.org/doc/stable/user/basics.index
 ### Task
 1. Variable `a`: use indexing on the array `x` to extract number `19` from it. Please
    **do not** just assign `a` the value `19` :)
-2. Variable `b`: use slicing to extract every second element in every second row. The resulting array 
+2. Variable `b`: use slicing to extract every second element in every second row (that is, elements with indices starting from `0` with step `2`). The resulting array 
 should have shape `(5, 2)`.
    
