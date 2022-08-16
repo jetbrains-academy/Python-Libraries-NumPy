@@ -4,9 +4,9 @@ files:
   visible: true
   placeholders:
   - offset: 240
-    length: 7
+    length: 8
     placeholder_text: '# TODO'
-  - offset: 252
+  - offset: 253
     length: 11
     placeholder_text: '# TODO'
 - name: tests/test_task.py
