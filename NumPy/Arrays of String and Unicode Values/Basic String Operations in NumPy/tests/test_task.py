@@ -5,7 +5,7 @@ from task import read_data, get_line_lengths
 
 
 def test_read_data(file):
-    text = np.loadtxt(file, delimiter='.', dtype=np.bytes_)[:, 0]
+    text = np.genfromtxt(file, delimiter='\n', dtype=np.bytes_)
     decoded_text = np.char.decode(text)
     upper_text = np.char.upper(decoded_text)
     return upper_text
