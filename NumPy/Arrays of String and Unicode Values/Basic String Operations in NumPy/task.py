@@ -2,7 +2,7 @@ import numpy as np
 
 
 def read_data(file):
-    text = np.loadtxt(file, delimiter='\n', dtype=np.bytes_)
+    text = np.genfromtxt(file, delimiter='\n', dtype=np.bytes_)
     decoded_text = np.char.decode(text)
     upper_text = np.char.upper(decoded_text)
     return upper_text
