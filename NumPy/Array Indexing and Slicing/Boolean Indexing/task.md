@@ -41,7 +41,7 @@ Output:
  [13 15]
  [17 19]]
 ```
-The 2nd and 4th rows are selected from the indexed array and combined to make a 2D array.
+The 2nd and 4th columns are selected from the indexed array and combined to make a 2D array.
 
 In general, when the boolean array has fewer dimensions than the indexed array,
 the shape of the result is one dimension containing the number of `True` elements 

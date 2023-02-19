@@ -15,7 +15,7 @@ a length of 2, the second one has a length of 3.
 
 Axes are numbered starting from 0. The 0th axis is a row, and the 1st axis is a column.
 To access the elements, you have to specify their coordinates along each axis while following the order of the axes. 
-For example, to access the number `2.` from the array above, you should use `arr[1][2]`.
+For example, to access the number `2.` from the array above, you should use `arr[1, 2]`.
 
 `ndarray` is also known by the alias `array`. 
 Note that `numpy.array` is different from the Standard Python Library class `array.array`, 
