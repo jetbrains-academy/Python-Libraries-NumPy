@@ -4,9 +4,9 @@ rng = np.random.default_rng()
 a = rng.integers(100, size=(5, 20))
 
 
-b = np.sort(a, axis=0)  # Sort columns
-ind = np.argsort(b, axis=1)  # Indices to sort rows
-c = np.take_along_axis(b, ind, axis=1)  # Sort rows using indices ind
+b = np.sort(a, axis=0)
+ind = np.argsort(b, axis=1)
+c = np.take_along_axis(b, ind, axis=1)
 
 
 if __name__ == '__main__':

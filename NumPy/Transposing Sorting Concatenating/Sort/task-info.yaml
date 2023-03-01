@@ -4,12 +4,12 @@ files:
   visible: true
   placeholders:
   - offset: 92
-    length: 19
+    length: 18
     placeholder_text: '# Sort columns'
-  - offset: 133
+  - offset: 117
     length: 21
     placeholder_text: '# Indices to sort rows'
-  - offset: 183
+  - offset: 143
     length: 34
     placeholder_text: '# Sort rows using indices ind'
 - name: tests/test_task.py

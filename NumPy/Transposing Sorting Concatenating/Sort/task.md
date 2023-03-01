@@ -36,13 +36,13 @@ print(a)
 ```
 Output:
 ```text
-[[1 3]
- [1 4]]
+[[1 4]
+ [1 3]]
 [[1 3]
  [1 4]]
 ```
-The difference in the results comes from the fact that the first method returns a copy of an array, while
-the second one modifies the initial array.
+The difference in the results comes from the fact that the first method `numpy.sort` returns a copy of an array, while
+the second one (`numpy.ndarray.sort`) modifies the initial array. That is, in the exapmle above, we sort the elements of one array, first inside the rows, then inside the columns.
 
 ### Indirect sort
 As opposed to the methods discussed above, the [`numpy.argsort()`](https://numpy.org/doc/stable/reference/generated/numpy.argsort.html#numpy.argsort) method returns the **indices**

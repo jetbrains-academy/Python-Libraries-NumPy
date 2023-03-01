@@ -16,7 +16,7 @@ id,value,size,amount
 ```
 You can load it into a numpy array as follows:
 ```python
-arr = np.loadtxt('my_data.csv.csv', delimiter=',', skiprows=1)
+arr = np.loadtxt('my_data.csv', delimiter=',', skiprows=1)
 ```
 You need to specify the delimiter and the number of rows that need to be skipped (header lines).
 

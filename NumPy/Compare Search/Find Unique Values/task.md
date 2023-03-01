@@ -52,10 +52,10 @@ You are given a dataset in the file `data.csv`. The first column contains ids (c
 all other columns – values for some metrics collected for each entry.
 1. [Load the dataset](course://NumPy/Array Basics/Reading and Writing Files) from the file into `csv`. Mind the header!
 2. [Split](course://NumPy/Array Indexing and Slicing/Indexing Basics) the dataset into `data` (a 2D array) and `labels` (a 1D array of **integers**).
-3. Determine the set of classes represented in the dataset (it should be assigned to 
+3. Determine the list of classes represented in the dataset (it should be assigned to 
 the variable `classes`).
 4. Find unique values and their counts in the dataset (`data`).
-5. Find the index of the most frequent measurement value (`most_frequent_index`) and get the measurement itself
+5. Find the index (in the array from previous step) of the most frequent measurement value (`most_frequent_index`) and get the measurement itself
 `most_frequent_measurement` using that index.
 
 <div class="hint">For the last one, you could use <code>numpy.argmax</code>.</div>
