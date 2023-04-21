@@ -1,1 +1,0 @@
-from numpy import linalg  # To proceed, import the linear algebra submodule from NumPy.

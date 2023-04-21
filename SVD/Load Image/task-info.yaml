@@ -1,0 +1,18 @@
+type: edu
+custom_name: "Introduction"
+files:
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: horse.jpg
+  visible: true
+- name: __init__.py
+  visible: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 143
+    length: 9
+    placeholder_text: image
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Load+Image
