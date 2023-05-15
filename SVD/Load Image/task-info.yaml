@@ -1,5 +1,5 @@
 type: edu
-custom_name: "Introduction"
+custom_name: Introduction
 files:
 - name: tests/test_task.py
   visible: false

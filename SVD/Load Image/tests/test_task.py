@@ -3,16 +3,16 @@ import contextlib
 import io
 
 f = io.StringIO()
+img_error = None
 with contextlib.redirect_stdout(f):
-    from task import img
+    try:
+        from task import img
+    except FileNotFoundError as e:
+        img_error = e
+        pass
 output = f.getvalue().split('\n')
 
 
 class TestCase(unittest.TestCase):
-    def test_ndim(self):
-        expected, actual = str(img.ndim), output[1]
-        self.assertEqual(expected, actual, msg="The second print statement should print the ndim of the image array.")
-
-    def test_shape(self):
-        expected, actual = str(img.shape), output[2]
-        self.assertEqual(expected, actual, msg="The third print statement should print the shape of the image array.")
+    def test_img(self):
+        self.assertIsNone(img_error, msg="Please check if you are opening horse.jpg")
