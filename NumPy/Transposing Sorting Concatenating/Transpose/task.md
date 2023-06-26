@@ -1,7 +1,7 @@
 ## Transpose
 
-When you transpose an array, the row and column indices of every 
-element are switched. Item `[0, 1]`, for example, becomes item `[1, 0]`.
+When you transpose an array, the order of the axes is reversed, and the indices of each element are reversed along each axis.
+Item `[0, 1]`, for example, becomes item `[1, 0]`.
 [`numpy.ndarray.transpose`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.transpose.html#numpy.ndarray.transpose) returns a view of the array with axes transposed.
 Alternatively, you can also use the attribute [`a.T`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.T.html#numpy.ndarray.T).
 
@@ -26,6 +26,8 @@ Output (all print the same thing):
 
 > <i>The method [`numpy.ndarray.reshape`](course://Numpy_/Array Basics/Reshape) we encountered earlier
 gives a new shape to an array without changing its data and can also be used for transposing.</i>
+
+<details>The transpose operation becomes more complex when dealing with arrays of higher dimensions, such as 3-D arrays. In the case of 3-D arrays, the transpose operation involves permuting the axes based on the provided axes parameter.</details>
 
 ### Task 
 1. Transpose the array `a`.
