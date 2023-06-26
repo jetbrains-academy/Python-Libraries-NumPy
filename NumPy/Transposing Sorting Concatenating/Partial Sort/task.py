@@ -4,7 +4,7 @@ rng = np.random.default_rng()
 k = 3
 mu = 1
 sigma = 1
-arr = rng.normal(mu, sigma, 10)
+arr = rng.normal(mu, sigma, 20)
 target = 0
 distances = abs(arr - target)
 
