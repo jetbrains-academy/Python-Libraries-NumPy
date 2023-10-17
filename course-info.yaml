@@ -1,8 +1,8 @@
 type: marketplace
-title: "NumPy: Image Compression Demo"
+title: Demo of Python Libraries - NumPy
 language: English
 summary: |-
-  <p>This is a demo course by JetBrains Academy about the most popular Python library - NumPy. It contains a hands-on example of an image compression algorithm. </p>
+  <p>This is demo of an introductory course by JetBrains Academy about the most popular Python library - NumPy. The original course will be most beneficial for learners with some basic Python skills. </p>
   <p>The course is based on the official documentation of NumPy.</p>
 vendor:
   name: JetBrains
@@ -11,4 +11,4 @@ vendor:
 programming_language: Python
 environment: unittest
 content:
-- SVD
+  - SVD

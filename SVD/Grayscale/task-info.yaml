@@ -1,22 +1,22 @@
 type: edu
 files:
-- name: __init__.py
-  visible: false
-- name: horse.jpg
-  visible: true
-- name: svd.png
-  visible: false
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 233
-    length: 39
-    placeholder_text: '''Approximate to grayscale'''
-  - offset: 407
-    length: 13
-    placeholder_text: ", cmap=\"gray\""
-- name: tests/__init__.py
-  visible: false
-- name: tests/test_task.py
-  visible: false
+  - name: __init__.py
+    visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 297
+        length: 1
+        placeholder_text: '?'
+      - offset: 508
+        length: 13
+        placeholder_text: ", cmap=\"gray\""
+  - name: horse.jpg
+    visible: true
+  - name: svd.png
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: tests/test_task.py
+    visible: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Grayscale
