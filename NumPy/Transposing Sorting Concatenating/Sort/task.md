@@ -91,7 +91,7 @@ computation, especially when the datasets are very large.
 
 The function [`numpy.take_along_axis`](https://numpy.org/doc/stable/reference/generated/numpy.take_along_axis.html)
 takes values from the input array using an index array. This is needed whenever you
-work with NumPy functions such as `argsort`, [`argpartition`](course://Numpy/Transposing Sorting Concatenating/Partial Sort), and [`argmax`](course://Numpy/Compare Search/Find maximum), which 
+work with NumPy functions such as `argsort`, [`argpartition`](course://NumPy/Transposing Sorting Concatenating/Partial Sort), and [`argmax`](course://NumPy/Compare Search/Find maximum), which 
 return an array of indices that can be further used to sort the initial array or perform some other operation
 with it.
 
