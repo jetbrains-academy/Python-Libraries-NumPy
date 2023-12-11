@@ -6,7 +6,7 @@ NumPy [`numpy.linalg`](https://numpy.org/doc/stable/reference/routines.linalg.ht
 functions provide efficient implementations of standard [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra) algorithms:
 operations with vectors and matrices. Vectors are 1D NumPy arrays, while matrices are 2D and nD arrays.
 
-> <i>The SciPy library also contains the [`linalg`](https://docs.scipy.org/doc/scipy/reference/reference/linalg.html#module-scipy.linalg) 
+> <i>The SciPy library also contains the [`linalg`](https://docs.scipy.org/doc/scipy/reference/linalg.html#module-scipy.linalg) 
 > submodule, and there is an overlap in the functionality. SciPy contains some functions not found in `numpy.linalg`, and
 > some functions that exist in both have augmented functionality in `scipy.linalg`.</i>
 
