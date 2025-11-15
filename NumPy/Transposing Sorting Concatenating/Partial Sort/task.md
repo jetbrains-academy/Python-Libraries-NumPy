@@ -54,7 +54,7 @@ Output:
 ```
 ### Task
 You have an array `arr` with 20 random numbers and a target value `target`. You need to find `k = 3` data points
-in the array `arr` that are the closest to `target` by value. The array `differences` contains the distances
+in the array `arr` that are the closest to `target` by value. The array `distances` contains the distances
 between `target` and each element of `arr`.
 1. Get the indices of `distances` partitioned by the k-th element.
 2. Rearrange `arr` using those indices and
