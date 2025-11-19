@@ -11,10 +11,13 @@ files:
         placeholder_text: '''Check the shape of the image array'''
   - name: tests/test_task.py
     visible: false
+    propagatable: false
   - name: __init__.py
     visible: false
+    propagatable: false
   - name: tests/__init__.py
     visible: false
+    propagatable: false
   - name: horse.jpg
     visible: true
     is_binary: true

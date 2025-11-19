@@ -12,5 +12,10 @@ vendor:
 programming_language: Python
 environment: unittest
 content:
-- NumPy
-- Projects
+  - NumPy
+  - Projects
+tags:
+  - Data science
+additional_files:
+  - name: requirements.txt
+yaml_version: 5

@@ -1,27 +1,27 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 63
-    length: 28
-    placeholder_text: '# TODO: use a 1-D numpy array for indexing'
-  - offset: 96
-    length: 52
-    placeholder_text: '# TODO: use a 2-D numpy array for indexing'
-  - offset: 155
-    length: 22
-    placeholder_text: '# TODO: use a 1-D numpy array for indexing'
-  - offset: 182
-    length: 43
-    placeholder_text: '# TODO: use two 1-D arrays for indexing'
-  - offset: 230
-    length: 25
-    placeholder_text: '# TODO: use a 1-D numpy array and a scalar for indexing'
-- name: tests/test_task.py
-  visible: false
-- name: __init__.py
-  visible: false
-- name: tests/__init__.py
-  visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 63
+        length: 28
+        placeholder_text: "# TODO: use a 1-D numpy array for indexing"
+      - offset: 96
+        length: 52
+        placeholder_text: "# TODO: use a 2-D numpy array for indexing"
+      - offset: 155
+        length: 22
+        placeholder_text: "# TODO: use a 1-D numpy array for indexing"
+      - offset: 182
+        length: 43
+        placeholder_text: "# TODO: use two 1-D arrays for indexing"
+      - offset: 230
+        length: 25
+        placeholder_text: "# TODO: use a 1-D numpy array and a scalar for indexing"
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Array+Indexing+and+Slicing+/+Integer+Array+Indexing

@@ -14,11 +14,14 @@ files:
         placeholder_text: '''Rebuild the full SVD with no approximation'''
   - name: __init__.py
     visible: false
+    propagatable: false
   - name: horse.jpg
     visible: true
     is_binary: true
   - name: tests/test_task.py
     visible: false
+    propagatable: false
   - name: tests/__init__.py
     visible: false
+    propagatable: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Products+with+n-dimensional+Arrays

@@ -14,17 +14,22 @@ files:
         placeholder_text: '''Use slicing to extract the blue channel'''
   - name: __init__.py
     visible: false
+    propagatable: false
   - name: horse.jpg
     visible: true
     is_binary: true
   - name: tests/test_task.py
     visible: false
+    propagatable: false
   - name: tests/__init__.py
     visible: false
+    propagatable: false
   - name: image_array.png
     visible: false
     is_binary: true
+    propagatable: false
   - name: image_array_dark.png
     visible: false
     is_binary: true
+    propagatable: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Split+Color+Channels

@@ -8,5 +8,5 @@ files:
     visible: false
     is_binary: true
   - name: edu_course_view_dark.png
-    visible: false
+    visible: true
     is_binary: true
