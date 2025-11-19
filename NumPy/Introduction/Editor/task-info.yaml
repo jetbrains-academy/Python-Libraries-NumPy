@@ -11,8 +11,8 @@ files:
     visible: false
     is_binary: true
   - name: edu_context_menu_run_dark.png
-    visible: true
+    visible: false
     is_binary: true
   - name: edu_editor_dark.png
-    visible: true
+    visible: false
     is_binary: true
