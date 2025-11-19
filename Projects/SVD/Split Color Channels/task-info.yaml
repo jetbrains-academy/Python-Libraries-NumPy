@@ -26,10 +26,10 @@ files:
     propagatable: false
   - name: image_array.png
     visible: false
-    is_binary: true
     propagatable: false
+    is_binary: true
   - name: image_array_dark.png
     visible: false
-    is_binary: true
     propagatable: false
+    is_binary: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Split+Color+Channels
