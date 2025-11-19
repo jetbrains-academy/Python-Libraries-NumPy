@@ -1,9 +1,10 @@
 type: theory
 files:
-- name: task.py
-  visible: true
-- name: __init__.py
-  visible: false
-- name: svd.png
-  visible: false
+  - name: task.py
+    visible: true
+  - name: __init__.py
+    visible: false
+  - name: svd.png
+    visible: false
+    is_binary: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Singular+Value+Decomposition
