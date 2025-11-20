@@ -1,10 +1,9 @@
 type: marketplace
-title: Python Libraries - NumPy
+title: Mastering Python Libraries – NumPy
 language: English
-summary: |-
-  <p>This is an introductory course by JetBrains Academy about the most popular Python library - NumPy. It will be most beneficial for learners with some basic Python skills. </p>
-  <p>You will learn the basics of ndarrays and operations on them, along with some possible applications. The course contains hands-on examples of code implementation and exercises to practice new skills.</p>
-  <p>The course is based on the official documentation of NumPy.</p>
+summary: "<p>Tame messy math with NumPy, the Python library that powers AI, data science,\
+  \ and high-speed computing. Slice arrays, crunch numbers, and build real-world skills\
+  \ in a learner-friendly, professional IDE.</p>"
 vendor:
   name: JetBrains
   email: support@jetbrains.com
