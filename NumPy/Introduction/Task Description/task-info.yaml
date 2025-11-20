@@ -26,5 +26,5 @@ files:
   - name: images/reset.svg
     visible: false
   - name: images/edu_task_description_window_settings_dark.png
-    visible: true
+    visible: false
     is_binary: true
