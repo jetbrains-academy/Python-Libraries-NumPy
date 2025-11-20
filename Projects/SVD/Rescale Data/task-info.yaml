@@ -1,23 +1,27 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 130
-    length: 9
-    placeholder_text: '''Rescale the data'''
-  - offset: 160
-    length: 20
-    placeholder_text: '''Get maximum and minimum of the initial data'''
-  - offset: 210
-    length: 38
-    placeholder_text: '''Get maximum and minimum of the rescaled array'''
-- name: __init__.py
-  visible: false
-- name: horse.jpg
-  visible: true
-- name: tests/test_task.py
-  visible: false
-- name: tests/__init__.py
-  visible: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 130
+        length: 9
+        placeholder_text: '''Rescale the data'''
+      - offset: 160
+        length: 20
+        placeholder_text: '''Get maximum and minimum of the initial data'''
+      - offset: 210
+        length: 38
+        placeholder_text: '''Get maximum and minimum of the rescaled array'''
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: horse.jpg
+    visible: true
+    is_binary: true
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Rescale+Data

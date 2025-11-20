@@ -1,8 +1,8 @@
-custom_name: Compare, Search
+custom_name: "Compare, Search"
 content:
-- Compare with a scalar
-- Element-wise Comparison
-- Find maximum
-- Search
-- Find Unique Values
-- bincount
+  - Compare with a scalar
+  - Element-wise Comparison
+  - Find maximum
+  - Search
+  - Find Unique Values
+  - bincount

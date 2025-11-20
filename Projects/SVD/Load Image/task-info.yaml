@@ -1,20 +1,24 @@
 type: edu
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 154
-    length: 9
-    placeholder_text: '''Check the shape of the image array'''
-  - offset: 138
-    length: 8
-    placeholder_text: '''Check the number of dimensions of the image array'''
-- name: tests/test_task.py
-  visible: false
-- name: __init__.py
-  visible: false
-- name: tests/__init__.py
-  visible: false
-- name: horse.jpg
-  visible: true
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 138
+        length: 8
+        placeholder_text: '''Check the number of dimensions of the image array'''
+      - offset: 154
+        length: 9
+        placeholder_text: '''Check the shape of the image array'''
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: horse.jpg
+    visible: true
+    is_binary: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Projects+/+SVD+/+Load+Image

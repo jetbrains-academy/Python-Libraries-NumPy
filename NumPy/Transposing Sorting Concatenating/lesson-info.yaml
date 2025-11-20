@@ -1,8 +1,8 @@
-custom_name: Transposing, Sorting, Concatenating
+custom_name: "Transposing, Sorting, Concatenating"
 content:
-- Transpose
-- Transpose 1D
-- Sort
-- Partial Sort
-- Concatenate and Stack
-- Split
+  - Transpose
+  - Transpose 1D
+  - Sort
+  - Partial Sort
+  - Concatenate and Stack
+  - Split

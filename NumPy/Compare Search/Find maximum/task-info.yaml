@@ -1,24 +1,24 @@
 type: edu
 custom_name: Find Maxima
 files:
-- name: task.py
-  visible: true
-  placeholders:
-  - offset: 27
-    length: 56
-    placeholder_text: '# Import data'
-  - offset: 166
-    length: 40
-    placeholder_text: '# Extract the maximum elements from each row'
-  - offset: 93
-    length: 63
-    placeholder_text: '# Find indices of maximum values in each row'
-- name: tests/test_task.py
-  visible: false
-- name: __init__.py
-  visible: false
-- name: tests/__init__.py
-  visible: false
-- name: data.csv
-  visible: true
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 27
+        length: 56
+        placeholder_text: "# Import data"
+      - offset: 93
+        length: 63
+        placeholder_text: "# Find indices of maximum values in each row"
+      - offset: 166
+        length: 40
+        placeholder_text: "# Extract the maximum elements from each row"
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: data.csv
+    visible: true
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfVgS9Eri_kV2y3xKnSqKW2zNssakK8ilXQfpetV_ZNh9rioA/viewform?usp=pp_url&entry.2103429047=Compare+Search+/+Find+Maxima
