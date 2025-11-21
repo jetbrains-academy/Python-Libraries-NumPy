@@ -97,6 +97,6 @@ with it.
 
 ### Task
 You are given a 2D array of 100 random integers.
-1. Sort the columns (i.e., sort along the rows - first axis) of this array and assign the result to the variable `b`.
+1. Sort the columns of the array (i.e., sort along the first axis) and assign the result to the variable `b`.
 2. Find indices to sort the rows of the array `b` and assign the result to `ind`.
 3. Fully sort the array by using those indices. Check out the examples above.
