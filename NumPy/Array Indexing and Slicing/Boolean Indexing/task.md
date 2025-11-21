@@ -47,7 +47,7 @@ In general, when the boolean array has fewer dimensions than the indexed array,
 the shape of the result is one dimension containing the number of `True` elements 
 of the boolean array followed by the remaining dimensions of the indexed array.
 
-For further details, consult the NumPy user guide on [array indexing](https://numpy.org/doc/stable/reference/routines.indexing.html).
+For further details, consult the NumPy reference documentation on [array indexing](https://numpy.org/doc/stable/reference/routines.indexing.html).
 
 ### Task 
 1. Create a 3D array `a` with integers from 0 to 19 and the shape `(2, 2, 5)`.
