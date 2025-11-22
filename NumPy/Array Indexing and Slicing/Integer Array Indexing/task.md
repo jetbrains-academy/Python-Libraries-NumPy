@@ -76,7 +76,7 @@ Output:
 ```text
 [ 1  7 10 13]
 ```
-You can read more about integer indexing [here](https://numpy.org/doc/stable/reference/arrays.indexing.html#integer-array-indexing).
+You can read more about integer indexing [here](https://numpy.org/doc/stable/user/basics.indexing.html#integer-array-indexing).
 
 ### Task
 1. Using integer array indexing, create an array `a` that contains elements with 
