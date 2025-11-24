@@ -1,6 +1,6 @@
 ## `numpy.char` Module
 
-[`numpy.chararray`](https://numpy.org/doc/stable/reference/generated/numpy.chararray.html) used to provide a view of arrays of string and [unicode](https://docs.python.org/3/howto/unicode.html) values.
+[`numpy.chararray`](https://numpy.org/doc/stable/reference/generated/numpy.char.array.html) used to provide a view of arrays of string and [unicode](https://docs.python.org/3/howto/unicode.html) values.
 However, the `chararray` class currently exists only for backwards compatibility, and
 it is not recommended for new development. Starting from numpy 1.4, if 
 one needs arrays of strings, it is recommended to use arrays of `dtype` [`object_`](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.object_), 
