@@ -20,6 +20,6 @@ Image compression is a very useful thing because it allows saving images without
 In this lesson, we will use a [matrix decomposition](https://en.wikipedia.org/wiki/Matrix_decomposition) from linear algebra,
 the singular value decomposition, to generate a compressed approximation of an image while still retaining many of the original features. 
 
-The lesson is based on the NumPy tutorial ["Linear algebra on n-dimensional arrays"](https://numpy.org/numpy-tutorials/content/tutorial-svd.html).
+The lesson is based on the NumPy tutorial ["Linear algebra on n-dimensional arrays"](https://numpy.org/numpy-tutorials/tutorial-svd/).
 
 
