@@ -1,4 +1,4 @@
-# Python Libraries - NumPy course
+# Mastering Python Libraries – NumPy course
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 <a href="https://academy.jetbrains.com/course/18302-python-libraries--numpy?=fromGitHub" target="_blank">
 <img src="https://img.shields.io/static/v1?logo=jetbrains&logoColor=1bd58e&label=&message=Course%20catalog&color=5a5a5a&style=flat" alt="Course%20catalog"></a>
