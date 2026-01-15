@@ -12,7 +12,7 @@ files:
           task: RGB Approximation
           file: task.py
           placeholder: 1
-          is_visible: false
+        is_visible: false
       - offset: 484
         length: 35
         placeholder_text: '''Reorder the axes'''
@@ -22,10 +22,10 @@ files:
           task: RGB Approximation
           file: task.py
           placeholder: 2
-          is_visible: false
+        is_visible: false
   - name: __init__.py
     visible: false
     propagatable: false
   - name: horse.jpg
-    visible: true
+    visible: false
     is_binary: true
