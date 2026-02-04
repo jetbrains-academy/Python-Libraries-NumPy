@@ -7,7 +7,7 @@ You have gained practical skills in numerical computing that are essential for f
 
 ### Feedback
 
-We would really appreciate it if you could take a few minutes to answer [our survey](waiting for link). Your feedback helps us improve our content and ensure it remains relevant for future students.
+We would really appreciate it if you could take a few minutes to answer [our survey](https://surveys.jetbrains.com/s3/course-feedback-mastering-python-libs-numpy). Your feedback helps us improve our content and ensure it remains relevant for future students.
 
 ### What next?
 
