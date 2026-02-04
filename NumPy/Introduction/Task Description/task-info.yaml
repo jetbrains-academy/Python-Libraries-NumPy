@@ -19,12 +19,16 @@ files:
     is_binary: true
   - name: images/forward.svg
     visible: false
+    is_binary: true
   - name: images/gear.svg
     visible: false
+    is_binary: true
   - name: images/hideToolWindow.svg
     visible: false
+    is_binary: true
   - name: images/reset.svg
     visible: false
+    is_binary: true
   - name: images/edu_task_description_window_settings_dark.png
     visible: false
     is_binary: true
