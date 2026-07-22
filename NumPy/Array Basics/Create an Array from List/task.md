@@ -1,5 +1,3 @@
-## Create an Array
-
 There are several ways you can create arrays.
 
 First, you can create an array from a regular Python list or tuple using the `array` function. 

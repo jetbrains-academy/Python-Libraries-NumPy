@@ -1,5 +1,3 @@
-## Indexing Basics
-
 Array indexing refers to any use of square brackets (`[]`) to index array values.
 
 ### Single element indexing

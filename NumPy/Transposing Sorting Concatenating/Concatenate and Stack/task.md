@@ -1,4 +1,4 @@
-## Concatenate
+### Concatenate
 
 Concatenation refers to joining two or more arrays of the same shape along a specified axis.
 While there’s [`numpy.concatenate()`](https://numpy.org/doc/stable/reference/generated/numpy.concatenate.html), there are also several helper functions 

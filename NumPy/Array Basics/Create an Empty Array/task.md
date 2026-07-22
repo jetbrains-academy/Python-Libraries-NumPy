@@ -1,5 +1,3 @@
-## Create an Empty Array
-
 Sometimes, the size of an array is known, while its elements are originally unknown. 
 NumPy offers several functions to create arrays with initial placeholder content:
 

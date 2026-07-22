@@ -1,5 +1,3 @@
-## Reading and Writing Files
-
 You will, at some point, want to save your arrays to disk and load them back without having to 
 re-run the code. Fortunately, there are several ways to save and load objects with NumPy.
 `ndarray` objects can be saved to and loaded from disk files with [`loadtxt`](https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html#numpy.loadtxt) 

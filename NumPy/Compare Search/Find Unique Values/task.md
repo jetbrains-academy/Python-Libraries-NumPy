@@ -1,5 +1,3 @@
-## Find Unique Values
-
 The [`numpy.unique`](https://numpy.org/doc/stable/reference/generated/numpy.unique.html) function is pretty 
 straightforward – it finds unique elements in the input array and returns them as a sorted array:
 

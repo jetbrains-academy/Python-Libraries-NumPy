@@ -1,5 +1,3 @@
-## Find Maximum (or Minimum)
-
 There are several ways to find the maximum value in an array. The most straightforward way is to 
 use [`numpy.amax`](https://numpy.org/doc/stable/reference/generated/numpy.amax.html), which
 returns the maximum of an array or the maximum along an axis:

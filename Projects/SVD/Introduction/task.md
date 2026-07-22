@@ -1,5 +1,3 @@
-## Introduction
-
 #### Who is this tutorial for?
 This tutorial is for people who have a basic understanding of linear algebra and arrays in NumPy and 
 want to find out how n-dimensional (n >= 2) arrays are represented and manipulated. In particular, 

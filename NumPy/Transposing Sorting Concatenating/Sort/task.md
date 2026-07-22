@@ -1,5 +1,3 @@
-## Sort
-
 Methods [`numpy.sort()`](https://numpy.org/doc/stable/reference/generated/numpy.sort.html?highlight=sort#numpy.sort) 
 and [`numpy.ndarray.sort`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.sort.html#numpy.ndarray.sort) can both be used to sort an array, 
 the only difference being that the former returns a sorted copy of an array, while the latter is used 

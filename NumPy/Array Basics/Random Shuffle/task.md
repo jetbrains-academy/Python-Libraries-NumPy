@@ -1,5 +1,3 @@
-## Random Shuffle
-
 Sometimes, you need to shuffle the contents of an array. For instance, in machine learning tasks, 
 it is common to shuffle data and normalize it. 
 

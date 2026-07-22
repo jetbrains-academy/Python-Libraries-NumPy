@@ -1,5 +1,3 @@
-## Transpose a 1D array
-
 In terms of programming 
 languages, it is not possible to transpose a 1D array: the transpose of a 1D array is still a 1D array.
 

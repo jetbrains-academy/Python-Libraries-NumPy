@@ -1,5 +1,3 @@
-## Linear Algebra
-
 Matrices and matrix operations are used in the description of many machine learning algorithms due
 to the efficiency of matrix solutions in ML problems.
 NumPy [`numpy.linalg`](https://numpy.org/doc/stable/reference/routines.linalg.html)

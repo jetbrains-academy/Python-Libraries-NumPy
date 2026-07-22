@@ -1,5 +1,3 @@
-## Create an Array from a Range
-
 To create arrays containing sequences of numbers, NumPy provides the [`arange`](https://numpy.org/doc/stable/reference/generated/numpy.arange.html?highlight=arange#numpy.arange) 
 function. It is analogous to Python's built-in [`range`](https://docs.python.org/3/library/functions.html#func-range) but returns an array.
 

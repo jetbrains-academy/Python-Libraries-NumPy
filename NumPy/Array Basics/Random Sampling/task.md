@@ -1,5 +1,3 @@
-## Random Sampling
-
 Sometimes, you might need to fill an array with random numbers or sample them from 
 different statistical distributions. 
 Numpy's [`random`](https://numpy.org/doc/stable/reference/random/#module-numpy.random) module allows you to do this. It is a suite of functions based on 

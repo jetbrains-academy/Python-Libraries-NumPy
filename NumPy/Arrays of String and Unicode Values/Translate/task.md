@@ -1,5 +1,3 @@
-## Translate
-
 Sometimes, you might need to remove certain characters from your array of strings or replace them with 
 some other characters in accordance with some rule or translation table. For that purpose, you can use
 [`numpy.char.translate(a, table, deletechars=None)`](https://numpy.org/doc/stable/reference/generated/numpy.char.translate.html), 

@@ -1,5 +1,3 @@
-## Elementwise Comparison
-
 Elementwise comparison is when you compare each element of one array to an element of another array.
 [`numpy.equal`](https://numpy.org/doc/stable/reference/generated/numpy.equal.html) is a function that returns `(x1 == x2)` elementwise.
 It accepts two input arrays which must either have equal `shape` or be broadcastable to a common shape 

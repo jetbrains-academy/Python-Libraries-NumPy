@@ -1,5 +1,3 @@
-## Boolean Indexing
-
 Boolean arrays used as indices are treated differently from index 
 arrays. Boolean arrays must be of the same shape as the initial dimensions of the array being indexed.
 Such boolean arrays are often referred to as **masks**, and the process of using them in indexing other arrays

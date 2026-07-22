@@ -1,5 +1,3 @@
-## Reshape
-
 Reshaping means changing the `shape` of an array without changing its data.
 As we mentioned earlier, the `shape` of an array is the number of elements in each dimension.
 By reshaping, we can add or remove dimensions, or change the number of elements in each dimension.
