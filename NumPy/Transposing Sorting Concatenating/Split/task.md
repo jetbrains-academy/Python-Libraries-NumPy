@@ -1,5 +1,3 @@
-## Split
-
 Splitting is a reverse operation of joining. While joining combines several arrays into a 
 single one, splitting breaks one array into several.
 Numpy functions [`split()`](https://numpy.org/doc/stable/reference/generated/numpy.split.html) and 

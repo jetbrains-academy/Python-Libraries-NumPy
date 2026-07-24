@@ -1,5 +1,3 @@
-## Choosing NumPy: the Benefits
-
 [NumPy](https://numpy.org/) is the most widely used package for scientific computing in Python. It 
 provides a multidimensional array object and different derived objects (such as masked arrays and 
 matrices), as well as a wide variety of ways to manipulate arrays. These include mathematical, 

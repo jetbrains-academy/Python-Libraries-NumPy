@@ -1,5 +1,3 @@
-## Broadcasting
-
 
 A frequent situation is that we have 
 a smaller array and a larger array and we need to use the smaller one

@@ -1,4 +1,4 @@
-## Partial Sort (Partition)
+### Partition
 
 If you have some dataset in the form of a numpy array and you only want to get `k` smallest numbers from it instead of fully sorting it,
 this task can be performed using the [`numpy.partition()`](https://numpy.org/doc/stable/reference/generated/numpy.partition.html#numpy.partition) method.

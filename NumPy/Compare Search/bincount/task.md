@@ -1,5 +1,3 @@
-## bincount
-
 A use case somewhat related to finding unique values is counting the number of occurrences of each value in an array.
 [`numpy.bincount`](https://numpy.org/doc/stable/reference/generated/numpy.bincount.html) is the function that does just that for an array of non-negative ints. It returns 
 the result of binning the input array, which is the count of how many times every integer on the interval from 0 

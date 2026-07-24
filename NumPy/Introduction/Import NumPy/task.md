@@ -1,5 +1,3 @@
-## Import NumPy
-
 To access NumPy and its functions, import it in your Python code like this:
 ```python
 import numpy as np

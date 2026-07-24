@@ -1,5 +1,3 @@
-## ndarray
-
 At the core of the NumPy package is the [`ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) object – a homogeneous multidimensional array.
 `ndarray` is a shorthand for "N-dimensional array". An N-dimensional array is simply an array with any number of dimensions.
 It is a table of elements (usually numbers), all of the same type, indexed by a tuple of non-negative integers. 

@@ -1,5 +1,3 @@
-## Compare with a Scalar
-
 Each element of an array can be compared against a scalar using any of the operators:
 - greater than (`>`),
 - greater than or equal to (`>=`), 

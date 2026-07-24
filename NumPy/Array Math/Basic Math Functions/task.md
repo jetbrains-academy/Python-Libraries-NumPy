@@ -1,5 +1,3 @@
-## Basic Mathematical Functions
-
 The ease of implementing mathematical formulas that work on arrays is one of the things that make NumPy 
 so widely used in the scientific Python community.
 

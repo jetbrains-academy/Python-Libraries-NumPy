@@ -1,5 +1,3 @@
-## Integer Array Indexing
-
 NumPy arrays may be indexed with other arrays.
 For all cases of index arrays, what is returned is a copy of the original data, not a view as one gets for slices.
 

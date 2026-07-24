@@ -1,5 +1,3 @@
-## Search
-
 You can search an array for a certain value or for values that satisfy a condition, 
 and return the **indices** that get a match.
 
